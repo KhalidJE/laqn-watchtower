@@ -1,4 +1,4 @@
-import requests, json, pathlib, datetime as dt
+import requests, json, pathlib, time, datetime as dt
 import duckdb
 
 RAW_DATA = pathlib.Path("data/raw");
@@ -7,11 +7,33 @@ DB = "feed.db"
 
 BASE_URL = "https://api.erg.ic.ac.uk/AirQuality"
 
+# per-site watermarks instead of global so each site's window starts from its own last reading
+def site_watermarks(conn):
+    rows = conn.execute(
+        "SELECT site_code, max(measured_at) FROM readings GROUP BY site_code"
+    ).fetchall()
+    return {code: ts for code, ts in rows}
+
+# had issues with backfilled data timing out before saving, this function changes the timeout + adds retries
+def get_json(url, timeout=(10, 60), retries=2):
+    for attempt in range(retries + 1):
+        try:
+            r = requests.get(url, timeout=timeout)
+            r.raise_for_status()
+            return r.json() # removed BOM safeguards since they were unnecessary
+        except requests.exceptions.RequestException:
+            if attempt == retries:
+                raise
+            time.sleep(2 * (attempt + 1))
+
+def fetch_sites():
+    url = f"{BASE_URL}/Information/MonitoringSiteSpecies/GroupName=London/Json"
+    data = get_json(url)
+    return data["Sites"]["Site"]
+
 def fetch_window(site_code, start, end):
     url = f"{BASE_URL}/Data/Site/SiteCode={site_code}/StartDate={start}/EndDate={end}/Json"
-    r = requests.get(url, timeout=30)
-    r.raise_for_status()
-    return json.loads(r.content.decode("utf-8-sig"))
+    return get_json(url)
 
 def save_raw(site_code, payload, start, end):
     path = RAW_DATA / f"{site_code}_{start}_{end}.json"
@@ -19,8 +41,13 @@ def save_raw(site_code, payload, start, end):
     return path
 
 def load(conn, site_code, payload):
+    if not payload:
+        return 0, 0
+    data = payload.get("AirQualityData", {}).get("Data")
+    if not data:
+        return 0, 0
     rows = []
-    for entry in payload["AirQualityData"]["Data"]:
+    for entry in data:
         measured_at = entry.get("@MeasurementDateGMT")
         actual_val = entry.get("@Value")
         if (actual_val is not None and actual_val != ""):
@@ -37,6 +64,13 @@ def load(conn, site_code, payload):
     fetched = len(rows)
     return fetched
 
+def chunks(start, end, days=14):
+    cursor = start
+    while cursor < end:
+        next = min(cursor + dt.timedelta(days=days), end)
+        yield cursor, next
+        cursor = next
+
 def run():
     conn = duckdb.connect(DB)
     conn.execute("""
@@ -48,25 +82,30 @@ def run():
         PRIMARY KEY (site_code, species_code, measured_at)
     )
 """)
+
+    sites = fetch_sites()
+    sites = [s for s in sites if not s.get("@DateClosed")] # some sites are decommissioned so should be skipped
+    
     today = dt.date.today()
-    watermark = conn.execute("SELECT max(measured_at) FROM readings").fetchone()[0]
-    if watermark is None:
-        start = today - dt.timedelta(days=90) #backfills by ~3 months on the first run so data from the previous season can be compared too
-    else:
-        start = watermark.date() - dt.timedelta(days=2)
     end = today + dt.timedelta(days=1)
+    marks = site_watermarks(conn)
+    before_count = conn.execute("SELECT count(*) FROM readings").fetchone()[0]
 
-    site = "HK6"
+    for s in sites:
+        s_code = s["@SiteCode"]
+        wm = marks.get(s_code)
+        start = (wm.date() - dt.timedelta(days=2)) if wm else (today - dt.timedelta(days=90))
+        for chunk_start, chunk_end in chunks(start, end):
+            try:
+                payload = fetch_window(s_code, chunk_start, chunk_end)
+                save_raw(s_code, payload, chunk_start, chunk_end)
+                load(conn, s_code, payload)
+            except Exception as e:
+                print(f"{s_code} {chunk_start}->{chunk_end} skipped: {type(e).__name__}: {e}") # gives an error if one site is faulty but run doesn't get aborted
+            time.sleep(0.3) # delay of 0.3s between calls
 
-    before = conn.execute("SELECT count(*) FROM readings").fetchone()[0]
-    payload = fetch_window(site, start, end)
-    save_raw(site, payload, start, end)
-    fetched = load(conn, site, payload)
-    after = conn.execute("SELECT count(*) FROM readings").fetchone()[0]
-    inserted = after - before
-
-    print(f"{site} ~ window: {start} -> {end} ~ fetched {fetched} \n"
-          f"inserted {inserted} new & skipped {fetched - inserted} duplicates")
+    after_count = conn.execute("SELECT count(*) FROM readings").fetchone()[0]
+    print(f"{len(sites)} sites ~ inserted {after_count - before_count} new readings")
 
 if __name__ == "__main__":
     run()

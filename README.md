@@ -13,6 +13,8 @@ The data used in this pipeline is managed by the Environmental Research Group of
 
 As the pipeline aims to continuously collect data over time, duplication is explicitly avoided. Data is also not overwritten due to the use case of this pipeline; if there was an issue with a sensor and it output illogical results (such as a large spike or a flatline), the data from that sensor may later be rectified for the sake of keeping the data clean. If this happens and the original data is overwritten, the support engineer would likely lose critical information linked to what exactly happened to that sensor on that specific date as all they'll see is a gap in the information (for example, a sensor previously reporting absurd numbers can be noted as the sensor spiking, but a gap could mistakenly indicate that the sensor was down instead). This harms their ability to establish patterns and make judgements on what work needs to be done to prevent future sensor issues or downtime.
 
+A 48-hour lookback is also used. Monitoring stations don't always sync in real-time so late data arrivals need to be accounted for. If data is uploaded hours later, there's a high risk of the wider dataset having gaps. If a snapshot is initially excluded, it can be added later, but once a snapshot is in the database, it can't be overwritten. This avoids the issue highlighted previously while protecting against the unique problem of missing data.
+
 ## How It Works
 
 ## How To Run It

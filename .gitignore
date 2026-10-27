@@ -1,4 +1,5 @@
 .env
-.duckdb
-.db
+*.duckdb
+duckdb.exe
+*.db
 __pycache__/

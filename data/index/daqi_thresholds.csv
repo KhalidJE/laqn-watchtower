@@ -1,0 +1,51 @@
+species_code,index_level,band,lower,upper
+NO2,1,Low,0,67
+NO2,2,Low,68,134
+NO2,3,Low,135,200
+NO2,4,Moderate,201,267
+NO2,5,Moderate,268,334
+NO2,6,Moderate,335,400
+NO2,7,High,401,467
+NO2,8,High,468,534
+NO2,9,High,535,600
+NO2,10,Very High,601,
+O3,1,Low,0,33
+O3,2,Low,34,66
+O3,3,Low,67,100
+O3,4,Moderate,101,120
+O3,5,Moderate,121,140
+O3,6,Moderate,141,160
+O3,7,High,161,187
+O3,8,High,188,213
+O3,9,High,214,240
+O3,10,Very High,241,
+SO2,1,Low,0,88
+SO2,2,Low,89,177
+SO2,3,Low,178,266
+SO2,4,Moderate,267,354
+SO2,5,Moderate,355,443
+SO2,6,Moderate,444,532
+SO2,7,High,533,710
+SO2,8,High,711,887
+SO2,9,High,888,1064
+SO2,10,Very High,1065,
+PM25,1,Low,0,11
+PM25,2,Low,12,23
+PM25,3,Low,24,35
+PM25,4,Moderate,36,41
+PM25,5,Moderate,42,47
+PM25,6,Moderate,48,53
+PM25,7,High,54,58
+PM25,8,High,59,64
+PM25,9,High,65,70
+PM25,10,Very High,71,
+PM10,1,Low,0,16
+PM10,2,Low,17,33
+PM10,3,Low,34,50
+PM10,4,Moderate,51,58
+PM10,5,Moderate,59,66
+PM10,6,Moderate,67,75
+PM10,7,High,76,83
+PM10,8,High,84,91
+PM10,9,High,92,100
+PM10,10,Very High,101,

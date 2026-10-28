@@ -25,5 +25,7 @@ Initial data pulls for a new site backfill for 90 days to provide comparison for
 
 ## Where AI Helped
 
-### Attribution
-This information is obtained from the Environmental Research Group of Imperial College London, using data from the London Air Quality Network (https://www.londonair.org.uk), and is licensed under the Open Government Licence Version 2.0.
+### Attributions
+Air quality information is obtained from the Environmental Research Group of Imperial College London, using data from the London Air Quality Network (https://www.londonair.org.uk), and is licensed under the Open Government Licence Version 2.0.
+
+DAQI threshold information is sourced from the Department for Environment, Food and Rural Affairs (DEFRA), approved by the Committee on the Medical Effects of Air Pollutants (COMEAP). Licenced under the Open Government Licence.

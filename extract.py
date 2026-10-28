@@ -1,11 +1,9 @@
-import requests, json, pathlib, time, datetime as dt
+from api_config import BASE_URL, DB, get_json
+import json, pathlib, time, datetime as dt
 import duckdb
 
 RAW_DATA = pathlib.Path("data/raw");
 RAW_DATA.mkdir(parents=True, exist_ok=True)
-DB = "feed.db"
-
-BASE_URL = "https://api.erg.ic.ac.uk/AirQuality"
 
 # per-site watermarks instead of global so each site's window starts from its own last reading
 def site_watermarks(conn):
@@ -13,18 +11,6 @@ def site_watermarks(conn):
         "SELECT site_code, max(measured_at) FROM readings GROUP BY site_code"
     ).fetchall()
     return {code: ts for code, ts in rows}
-
-# had issues with backfilled data timing out before saving, this function changes the timeout + adds retries
-def get_json(url, timeout=(10, 60), retries=2):
-    for attempt in range(retries + 1):
-        try:
-            r = requests.get(url, timeout=timeout)
-            r.raise_for_status()
-            return r.json() # removed BOM safeguards since they were unnecessary
-        except requests.exceptions.RequestException:
-            if attempt == retries:
-                raise
-            time.sleep(2 * (attempt + 1))
 
 def fetch_sites():
     url = f"{BASE_URL}/Information/MonitoringSiteSpecies/GroupName=London/Json"

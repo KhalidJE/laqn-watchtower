@@ -8,4 +8,11 @@ CREATE OR REPLACE TABLE index_health_advice AS
 SELECT * FROM read_json('data/index/health_advice.json');
 
 CREATE OR REPLACE TABLE daqi_thresholds AS
-SELECT * FROM read_csv_auto('data/index/daqi_thresholds.csv');
+SELECT * FROM read_csv('data/index/daqi_thresholds.csv', header=true,
+columns={
+    'species_code':'VARCHAR',
+    'index_level':'INTEGER',
+    'band':'VARCHAR',
+    'lower':'INTEGER',
+    'upper':'INTEGER'
+    });

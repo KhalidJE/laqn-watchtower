@@ -17,6 +17,27 @@ def fetch_sites():
     data = get_json(url)
     return data["Sites"]["Site"]
 
+def flatten_sites(sites):
+    site_rows, ss_rows = [], []
+    for s in sites:
+        code = s["@SiteCode"]
+        site_rows.append({
+            "site_code": code,
+            "site_name": s.get("@SiteName"),
+            "site_type": s.get("@SiteType"),
+            "latitude": float(s["@Latitude"]) if s.get("@Latitude") else None,
+            "longitude": float(s["@Longitude"]) if s.get("@Longitude") else None,
+            "local_authority": s.get("@LocalAuthorityName"),
+            "date_opened": s.get("@DateOpened") or None,
+            "date_closed": s.get("@DateClosed") or None
+        })
+        species = s.get("Species", [])
+        if isinstance(species, dict):
+            species = [species]
+        for sp in species:
+            ss_rows.append({"site_code": code, "species_code": sp["@SpeciesCode"]})
+    return site_rows, ss_rows
+
 def fetch_window(site_code, start, end):
     url = f"{BASE_URL}/Data/Site/SiteCode={site_code}/StartDate={start}/EndDate={end}/Json"
     return get_json(url)
@@ -70,6 +91,12 @@ def run():
 """)
 
     sites = fetch_sites()
+
+    CATALOGUE = pathlib.Path("data/catalogue"); CATALOGUE.mkdir(parents=True, exist_ok=True)
+    site_rows, ss_rows = flatten_sites(sites)
+    (CATALOGUE / "sites.json").write_text(json.dumps(site_rows, indent=1), encoding="utf-8")
+    (CATALOGUE / "site_species.json").write_text(json.dumps(ss_rows, indent=1), encoding="utf-8")
+
     sites = [s for s in sites if not s.get("@DateClosed")] # some sites are decommissioned so should be skipped
     
     today = dt.date.today()

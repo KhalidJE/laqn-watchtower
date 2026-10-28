@@ -1,0 +1,2602 @@
+[
+ {
+  "site_code": "BG3",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "BG1",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "BG1",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "BG2",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "BG2",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "BN2",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "BN2",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "BN3",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "BN3",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "BN1",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "BN1",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "BX5",
+  "species_code": "CO"
+ },
+ {
+  "site_code": "BX5",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "BX5",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "BX2",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "BX2",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "BX2",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "BX0",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "BQ7",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "BQ7",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "BQ7",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "BQ7",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "BQ8",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "BX4",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "BX4",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "BX4",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "BQ6",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "BQ5",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "BX1",
+  "species_code": "CO"
+ },
+ {
+  "site_code": "BX1",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "BX1",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "BX1",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "BX1",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "BX9",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "BQ9",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "BQ9",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "BX7",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "BX7",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "BX7",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "BX6",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "BX8",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "BX8",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "BX8",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "BX3",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "BT8",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "BT8",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "BT8",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "BT3",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "BT3",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "BT3",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "BT4",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "BT4",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "BT4",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "BT4",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "BT4",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "BT2",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "BT2",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "BT2",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "BT6",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "BT6",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "BT6",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "BT6",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "BT1",
+  "species_code": "CO"
+ },
+ {
+  "site_code": "BT1",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "BT1",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "BT1",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "BT1",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "BT5",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "BT5",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "BT5",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "BT7",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "BT7",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "BY5",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "BY7",
+  "species_code": "CO"
+ },
+ {
+  "site_code": "BY7",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "BY7",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "BY7",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "BY1",
+  "species_code": "CO"
+ },
+ {
+  "site_code": "BY1",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "BY1",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "BY4",
+  "species_code": "CO"
+ },
+ {
+  "site_code": "BY4",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "BL0",
+  "species_code": "CO"
+ },
+ {
+  "site_code": "BL0",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "BL0",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "BL0",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "BL0",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "BL0",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "KX4",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "CD9",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "CD9",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "CD9",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "IM1",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "CD3",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "CD3",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "CD4",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "CD5",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "CD1",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "CD1",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "CD1",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "CT4",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "CT4",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "CTA",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "CTA",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "CT2",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "CT2",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "CT2",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "CT2",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "CT9",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "CT1",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "CT1",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "CT1",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "CT3",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "CT3",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "CT3",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "CT8",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "CT6",
+  "species_code": "CO"
+ },
+ {
+  "site_code": "CT6",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "CT6",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "CR6",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "CR4",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "CR4",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "CR4",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "CR5",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "CR8",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "CR9",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "CR9",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "CR9",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "CR2",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "CR7",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "CR7",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "CR7",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "CR3",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "CR3",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "CY1",
+  "species_code": "CO"
+ },
+ {
+  "site_code": "CY1",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "CY1",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "CY1",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "EA2",
+  "species_code": "CO"
+ },
+ {
+  "site_code": "EA2",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "EA2",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "EA2",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "EG1",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "EA0",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "EI3",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "EI3",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "EA9",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "EA1",
+  "species_code": "CO"
+ },
+ {
+  "site_code": "EA1",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "EA1",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "EA1",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "EI0",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "EA6",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "EA6",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "EA8",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "EA8",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "EI8",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "EA7",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "EA7",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "EA7",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "EI7",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "EI7",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "EI2",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "EI2",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "EI1",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "EI1",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "EN5",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "EN5",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "EN5",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "EN1",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "EN2",
+  "species_code": "CO"
+ },
+ {
+  "site_code": "EN2",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "EN2",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "EN4",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "EN4",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "EN4",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "EN7",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "EN3",
+  "species_code": "CO"
+ },
+ {
+  "site_code": "EN3",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "EN3",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "EN3",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "EN3",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "GN0",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "GN0",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "GN0",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "GR7",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "GR7",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "GR4",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "GR4",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "GR4",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "GR4",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "GR4",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "GB6",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "GB6",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "GB6",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "GB0",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "GB0",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "GN4",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "GN4",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "GN6",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "GN6",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "GN6",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "GN2",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "GN2",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "GN2",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "GN3",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "GN3",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "GN3",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "GN3",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "GR5",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "GR5",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "GN5",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "GN5",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "TL4",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "GR9",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "GR9",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "GR9",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "GR9",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "GR8",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "GR8",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "GR8",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "GR8",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "HN0",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "HN0",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "HK4",
+  "species_code": "CO"
+ },
+ {
+  "site_code": "HK4",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "HK4",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "HN1",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "HN1",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "HK6",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "HK6",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "HK6",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "HK6",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "HK9",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "HK9",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "HF1",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "HF1",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "HF1",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "HF2",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "HF2",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "HF3",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "HF3",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "HF4",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "HF4",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "HG4",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "HG4",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "HG3",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "HG3",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "HG3",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "HG1",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "HG1",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "HG1",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "HG1",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "HG1",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "HG2",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "HG2",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "HG2",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "HR2",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "HR2",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "HR1",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "HR1",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "HR1",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "HR1",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "HV2",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "HV1",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "HV1",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "HV1",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "HV3",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "HV3",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "HV3",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "HV3",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "LH2",
+  "species_code": "CO"
+ },
+ {
+  "site_code": "LH2",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "LH2",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "LH2",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "LH0",
+  "species_code": "CO"
+ },
+ {
+  "site_code": "LH0",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "LH0",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "LH0",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "LH0",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "HI2",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "HI2",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "HI0",
+  "species_code": "CO"
+ },
+ {
+  "site_code": "HI0",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "HI0",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "HI0",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "HI0",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "HI3",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "HI3",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "HI1",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "HI1",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "HI1",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "HI1",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "HS5",
+  "species_code": "CO"
+ },
+ {
+  "site_code": "HS1",
+  "species_code": "CO"
+ },
+ {
+  "site_code": "HS1",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "HS5",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "HS1",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "HS5",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "HS3",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "HS4",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "HS4",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "HS4",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "HS2",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "HS2",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "HS2",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "HS2",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "HS9",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "HS9",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "HS7",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "HS7",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "HS6",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "HS6",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "HS8",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "HS8",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "IS6",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "IS6",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "IS6",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "IS5",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "IS4",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "IS2",
+  "species_code": "CO"
+ },
+ {
+  "site_code": "IS2",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "IS2",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "IS2",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "IS1",
+  "species_code": "CO"
+ },
+ {
+  "site_code": "IS1",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "IS1",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "KC2",
+  "species_code": "CO"
+ },
+ {
+  "site_code": "KC2",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "KC2",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "KC2",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "KC2",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "KC5",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "KC5",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "KG2",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "KG1",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "KC4",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "KC3",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "KC1",
+  "species_code": "CO"
+ },
+ {
+  "site_code": "KC1",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "KC1",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "KC1",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "KC1",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "KC1",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "KC7",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "KF1",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "KF1",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "WE0",
+  "species_code": "CO"
+ },
+ {
+  "site_code": "WE0",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "GT1",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "GT1",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "GT1",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "KT1",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "A30",
+  "species_code": "CO"
+ },
+ {
+  "site_code": "A30",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "A30",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "KT2",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "KT2",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "KT5",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "KT5",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "KT6",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "KT6",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "KT3",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "KT3",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "KT4",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "KT4",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "KT4",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "LB5",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "LB5",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "LB5",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "LB4",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "LB4",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "LB4",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "LB4",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "LB1",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "LB1",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "LB1",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "LB3",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "LB3",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "LB3",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "LB6",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "LB6",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "LB2",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "LB2",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "LB2",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "WAC",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "WAC",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "WAC",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "LW1",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "LW1",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "LW1",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "LW5",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "LW5",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "HP1",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "HP1",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "HP1",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "HP1",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "LW6",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "LW4",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "LW4",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "LW3",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "LW2",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "LW2",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "LW2",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "LW2",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "TD5",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "TD5",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "MR8",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "MR8",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "MR8",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "ME2",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "ME2",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "ME2",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "MEA",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "MEA",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "ME1",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "ME9",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "MEB",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "MEB",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "MEB",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "ME7",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "ME7",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "ME7",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "TD0",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "TD0",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "TD0",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "TD0",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "TL6",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "TL6",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "NM2",
+  "species_code": "CO"
+ },
+ {
+  "site_code": "NM2",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "NM2",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "NM2",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "NM2",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "NM2",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "NM4",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "NM4",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "TL5",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "NM1",
+  "species_code": "CO"
+ },
+ {
+  "site_code": "NM1",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "NM1",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "NM1",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "NM1",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "NM3",
+  "species_code": "CO"
+ },
+ {
+  "site_code": "NM3",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "NM3",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "NM3",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "NM3",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "NM3",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "RB3",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "RB3",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "RB3",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "RB4",
+  "species_code": "CO"
+ },
+ {
+  "site_code": "RB4",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "RB4",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "RB4",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "RB2",
+  "species_code": "CO"
+ },
+ {
+  "site_code": "RB2",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "RB7",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "RB7",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "RB7",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "RB7",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "RB1",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "RB1",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "RB1",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "RB5",
+  "species_code": "CO"
+ },
+ {
+  "site_code": "RB5",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "RB5",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "CE3",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "CE3",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "CE3",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "CE1",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "RI2",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "RI2",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "RI2",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "RI2",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "RI1",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "RI1",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "RHG",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "RHG",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "RHI",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "RHI",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "RHI",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "SK5",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "SK5",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "SK9",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "SK9",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "SK6",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "SK6",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "SK6",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "SK6",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "SK7",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "SK1",
+  "species_code": "CO"
+ },
+ {
+  "site_code": "SK1",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "SK1",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "SK1",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "SK1",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "SKA",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "SKA",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "SKA",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "SK2",
+  "species_code": "CO"
+ },
+ {
+  "site_code": "SK2",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "SK2",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "SK2",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "SKC",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "SKC",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "SKC",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "SK8",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "SK8",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "SK8",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "SKB",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "SKB",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "SKB",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "ST8",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "ST8",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "ST8",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "ST5",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "ST5",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "ST5",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "ST9",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "ST9",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "ST3",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "ST3",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "ST2",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "ST1",
+  "species_code": "CO"
+ },
+ {
+  "site_code": "ST1",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "ST1",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "ST1",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "ST7",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "ST7",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "ST4",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "ST4",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "ST6",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "ST6",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "TH3",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "TH3",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "TH3",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "TH4",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "TH4",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "TH4",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "TH4",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "CW3",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "CW3",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "CW3",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "TH7",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "TH7",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "TH2",
+  "species_code": "CO"
+ },
+ {
+  "site_code": "TH2",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "TH2",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "TH6",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "TH6",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "TH6",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "TH1",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "TH1",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "TH1",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "TH1",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "TH5",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "TH5",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "TH5",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "TH5",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "TH5",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "WL3",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "WL3",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "WL3",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "WL4",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "WL4",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "WL1",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "WL1",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "WL1",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "WL5",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "WL5",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "WL5",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "WL2",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "WL2",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "WL2",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "WAA",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "WAA",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "WAA",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "WA1",
+  "species_code": "CO"
+ },
+ {
+  "site_code": "WA1",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "WA4",
+  "species_code": "CO"
+ },
+ {
+  "site_code": "WA4",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "WA4",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "WA9",
+  "species_code": "CO"
+ },
+ {
+  "site_code": "WA9",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "WA9",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "WA9",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "WA7",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "WA7",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "WA7",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "WA8",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "WA3",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "WA3",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "WA6",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "WA6",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "WAB",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "WAB",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "WAB",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "WA2",
+  "species_code": "CO"
+ },
+ {
+  "site_code": "WA2",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "WA2",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "WA2",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "CE2",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "CE2",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "CE2",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "CE2",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "BP0",
+  "species_code": "CO"
+ },
+ {
+  "site_code": "BP0",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "BP0",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "BP0",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "WMA",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "WMC",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "WMC",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "WM4",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "WM5",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "WM5",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "GV2",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "GV1",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "WMD",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "WMD",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "WM0",
+  "species_code": "CO"
+ },
+ {
+  "site_code": "WM0",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "WM0",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "WM0",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "WM0",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "WM0",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "MY1",
+  "species_code": "CO"
+ },
+ {
+  "site_code": "MY1",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "MY1",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "MY1",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "MY1",
+  "species_code": "SO2"
+ },
+ {
+  "site_code": "MY7",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "MY7",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "WM6",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "WM6",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "WM6",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "WMZ",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "WMB",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "WMB",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "WME",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "WME",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "WME",
+  "species_code": "PM25"
+ },
+ {
+  "site_code": "NB1",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "WM8",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "WM9",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "VS1",
+  "species_code": "CO"
+ },
+ {
+  "site_code": "VS1",
+  "species_code": "NO2"
+ },
+ {
+  "site_code": "VS1",
+  "species_code": "O3"
+ },
+ {
+  "site_code": "VS1",
+  "species_code": "PM10"
+ },
+ {
+  "site_code": "VS1",
+  "species_code": "PM25"
+ }
+]

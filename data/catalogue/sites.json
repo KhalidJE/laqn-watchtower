@@ -1,0 +1,2542 @@
+[
+ {
+  "site_code": "BG3",
+  "site_name": "Barking and Dagenham - North Street",
+  "site_type": "Kerbside",
+  "latitude": 51.540444,
+  "longitude": 0.074418,
+  "local_authority": "Barking and Dagenham",
+  "date_opened": "2007-03-16 00:00:00",
+  "date_closed": "2011-05-25 00:00:00"
+ },
+ {
+  "site_code": "BG1",
+  "site_name": "Barking and Dagenham - Rush Green",
+  "site_type": "Suburban",
+  "latitude": 51.563752,
+  "longitude": 0.177891,
+  "local_authority": "Barking and Dagenham",
+  "date_opened": "1999-11-02 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "BG2",
+  "site_name": "Barking and Dagenham - Scrattons Farm",
+  "site_type": "Suburban",
+  "latitude": 51.529389,
+  "longitude": 0.132857,
+  "local_authority": "Barking and Dagenham",
+  "date_opened": "1999-10-17 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "BN2",
+  "site_name": "Barnet - Finchley",
+  "site_type": "Urban Background",
+  "latitude": 51.591901,
+  "longitude": -0.205992,
+  "local_authority": "Barnet",
+  "date_opened": "2000-08-09 13:00:00",
+  "date_closed": "2012-04-20 00:00:00"
+ },
+ {
+  "site_code": "BN3",
+  "site_name": "Barnet - Strawberry Vale ",
+  "site_type": "Urban Background",
+  "latitude": 51.6008848453589,
+  "longitude": -0.172297542087178,
+  "local_authority": "Barnet",
+  "date_opened": "2000-08-14 14:00:00",
+  "date_closed": "2002-05-15 00:00:00"
+ },
+ {
+  "site_code": "BN1",
+  "site_name": "Barnet - Tally Ho Corner",
+  "site_type": "Kerbside",
+  "latitude": 51.614675,
+  "longitude": -0.176607,
+  "local_authority": "Barnet",
+  "date_opened": "1998-12-20 12:00:00",
+  "date_closed": "2012-04-20 00:00:00"
+ },
+ {
+  "site_code": "BX5",
+  "site_name": "Bexley - Bedonwell ",
+  "site_type": "Suburban",
+  "latitude": 51.4788023547334,
+  "longitude": 0.133873839062683,
+  "local_authority": "Bexley",
+  "date_opened": "1999-10-06 13:00:00",
+  "date_closed": "2004-04-08 00:00:00"
+ },
+ {
+  "site_code": "BX2",
+  "site_name": "Bexley - Belvedere",
+  "site_type": "Suburban",
+  "latitude": 51.4906102082147,
+  "longitude": 0.158914493927518,
+  "local_authority": "Bexley",
+  "date_opened": "1998-01-24 15:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "BX0",
+  "site_name": "Bexley - Belvedere FDMS",
+  "site_type": "Suburban",
+  "latitude": 51.4906102082147,
+  "longitude": 0.158914493927518,
+  "local_authority": "Bexley",
+  "date_opened": "2004-04-28 00:00:00",
+  "date_closed": "2022-01-28 00:00:00"
+ },
+ {
+  "site_code": "BQ7",
+  "site_name": "Bexley - Belvedere West",
+  "site_type": "Urban Background",
+  "latitude": 51.4946486813055,
+  "longitude": 0.137279111232178,
+  "local_authority": "Bexley",
+  "date_opened": "2010-08-24 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "BQ8",
+  "site_name": "Bexley - Belvedere West FDMS",
+  "site_type": "Urban Background",
+  "latitude": 51.4946486813055,
+  "longitude": 0.137279111232178,
+  "local_authority": "Bexley",
+  "date_opened": "2010-08-24 00:00:00",
+  "date_closed": "2022-02-23 00:00:00"
+ },
+ {
+  "site_code": "BX4",
+  "site_name": "Bexley - Erith",
+  "site_type": "Industrial",
+  "latitude": 51.477670796298,
+  "longitude": 0.190836225974902,
+  "local_authority": "Bexley",
+  "date_opened": "1999-04-28 00:00:00",
+  "date_closed": "2014-12-19 00:00:00"
+ },
+ {
+  "site_code": "BQ6",
+  "site_name": "Bexley - Manor Road East Gravimetric",
+  "site_type": "Industrial",
+  "latitude": 51.477670796298,
+  "longitude": 0.190836225974902,
+  "local_authority": "Bexley",
+  "date_opened": "2010-02-12 00:00:00",
+  "date_closed": "2014-10-28 00:00:00"
+ },
+ {
+  "site_code": "BQ5",
+  "site_name": "Bexley - Manor Road West Gravimetric",
+  "site_type": "Industrial",
+  "latitude": 51.4781935083933,
+  "longitude": 0.187404883999095,
+  "local_authority": "Bexley",
+  "date_opened": "1999-04-28 09:00:00",
+  "date_closed": "2014-10-28 00:00:00"
+ },
+ {
+  "site_code": "BX1",
+  "site_name": "Bexley - Slade Green",
+  "site_type": "Suburban",
+  "latitude": 51.4659832746662,
+  "longitude": 0.184877126994369,
+  "local_authority": "Bexley",
+  "date_opened": "1994-05-25 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "BX9",
+  "site_name": "Bexley - Slade Green FDMS",
+  "site_type": "Suburban",
+  "latitude": 51.4659832746662,
+  "longitude": 0.184877126994369,
+  "local_authority": "Bexley",
+  "date_opened": "2008-10-21 00:00:00",
+  "date_closed": "2020-10-01 00:00:00"
+ },
+ {
+  "site_code": "BQ9",
+  "site_name": "Bexley - Slade Green Fidas",
+  "site_type": "Suburban",
+  "latitude": 51.4659832746662,
+  "longitude": 0.184877126994369,
+  "local_authority": "Bexley",
+  "date_opened": "2020-10-01 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "BX7",
+  "site_name": "Bexley - Thames Road North",
+  "site_type": "Roadside",
+  "latitude": 51.457159,
+  "longitude": 0.195294,
+  "local_authority": "Bexley",
+  "date_opened": "2004-04-08 00:00:00",
+  "date_closed": "2010-03-23 00:00:00"
+ },
+ {
+  "site_code": "BX6",
+  "site_name": "Bexley - Thames Road North FDMS",
+  "site_type": "Roadside",
+  "latitude": 51.457159,
+  "longitude": 0.195294,
+  "local_authority": "Bexley",
+  "date_opened": "2004-04-08 00:00:00",
+  "date_closed": "2010-03-23 00:00:00"
+ },
+ {
+  "site_code": "BX8",
+  "site_name": "Bexley - Thames Road South",
+  "site_type": "Roadside",
+  "latitude": 51.456887,
+  "longitude": 0.194582,
+  "local_authority": "Bexley",
+  "date_opened": "2004-04-06 00:00:00",
+  "date_closed": "2010-04-15 00:00:00"
+ },
+ {
+  "site_code": "BX3",
+  "site_name": "Bexley - Thamesmead",
+  "site_type": "Suburban",
+  "latitude": 51.510808,
+  "longitude": 0.121617,
+  "local_authority": "Bexley",
+  "date_opened": "1998-01-24 15:00:00",
+  "date_closed": "2018-03-12 00:00:00"
+ },
+ {
+  "site_code": "BT8",
+  "site_name": "Brent - ARK Franklin Primary Academy",
+  "site_type": "Roadside",
+  "latitude": 51.5324054617809,
+  "longitude": -0.217718908639377,
+  "local_authority": "Brent",
+  "date_opened": "2017-10-30 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "BT3",
+  "site_name": "Brent - Harlesden",
+  "site_type": "Roadside",
+  "latitude": 51.5370800298103,
+  "longitude": -0.249273425299457,
+  "local_authority": "Brent",
+  "date_opened": "2001-10-31 00:00:00",
+  "date_closed": "2006-09-27 00:00:00"
+ },
+ {
+  "site_code": "BT4",
+  "site_name": "Brent - Ikea",
+  "site_type": "Roadside",
+  "latitude": 51.552476,
+  "longitude": -0.258089,
+  "local_authority": "Brent",
+  "date_opened": "2003-06-20 06:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "BT2",
+  "site_name": "Brent - Ikea Car Park",
+  "site_type": "Roadside",
+  "latitude": 51.5524326273922,
+  "longitude": -0.260338843869077,
+  "local_authority": "Brent",
+  "date_opened": "2001-06-17 12:00:00",
+  "date_closed": "2003-06-16 00:00:00"
+ },
+ {
+  "site_code": "BT6",
+  "site_name": "Brent - John Keble Primary School",
+  "site_type": "Roadside",
+  "latitude": 51.537799,
+  "longitude": -0.247793,
+  "local_authority": "Brent",
+  "date_opened": "2006-11-01 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "BT1",
+  "site_name": "Brent - Kingsbury",
+  "site_type": "Suburban",
+  "latitude": 51.589618,
+  "longitude": -0.275519,
+  "local_authority": "Brent",
+  "date_opened": "1996-01-26 00:00:00",
+  "date_closed": "2010-11-16 00:00:00"
+ },
+ {
+  "site_code": "BT5",
+  "site_name": "Brent - Neasden Lane",
+  "site_type": "Industrial",
+  "latitude": 51.552656,
+  "longitude": -0.248774,
+  "local_authority": "Brent",
+  "date_opened": "2004-02-29 23:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "BT7",
+  "site_name": "Brent - St Marys Primary School",
+  "site_type": "Urban Background",
+  "latitude": 51.534718,
+  "longitude": -0.196664,
+  "local_authority": "Brent",
+  "date_opened": "2008-01-04 00:00:00",
+  "date_closed": "2010-12-21 00:00:00"
+ },
+ {
+  "site_code": "BY5",
+  "site_name": "Bromley - Biggin Hill",
+  "site_type": "Suburban",
+  "latitude": 51.314562,
+  "longitude": 0.042019,
+  "local_authority": "Bromley",
+  "date_opened": "1996-04-01 00:00:00",
+  "date_closed": "2010-07-09 08:45:00"
+ },
+ {
+  "site_code": "BY7",
+  "site_name": "Bromley - Harwood Avenue",
+  "site_type": "Roadside",
+  "latitude": 51.405546,
+  "longitude": 0.018882,
+  "local_authority": "Bromley",
+  "date_opened": "1998-07-06 11:00:00",
+  "date_closed": "2026-01-05 00:00:00"
+ },
+ {
+  "site_code": "BY1",
+  "site_name": "Bromley - Rent Office",
+  "site_type": "Urban Background",
+  "latitude": 51.4132338948359,
+  "longitude": 0.00721471618770671,
+  "local_authority": "Bromley",
+  "date_opened": "1993-01-01 00:00:00",
+  "date_closed": "1996-01-11 21:00:00"
+ },
+ {
+  "site_code": "BY4",
+  "site_name": "Bromley - Tweedy Rd",
+  "site_type": "Roadside",
+  "latitude": 51.403834810795,
+  "longitude": 0.020390228913718,
+  "local_authority": "Bromley",
+  "date_opened": "1996-01-28 11:00:00",
+  "date_closed": "1998-07-06 10:45:00"
+ },
+ {
+  "site_code": "BL0",
+  "site_name": "Camden - Bloomsbury",
+  "site_type": "Urban Background",
+  "latitude": 51.522287,
+  "longitude": -0.125848,
+  "local_authority": "Camden",
+  "date_opened": "1992-01-23 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "KX4",
+  "site_name": "Camden - Coopers Lane",
+  "site_type": "Industrial",
+  "latitude": 51.533238,
+  "longitude": -0.129594,
+  "local_authority": "Camden",
+  "date_opened": "2009-07-01 00:00:00",
+  "date_closed": "2020-07-01 00:00:00"
+ },
+ {
+  "site_code": "CD9",
+  "site_name": "Camden - Euston Road",
+  "site_type": "Roadside",
+  "latitude": 51.527975,
+  "longitude": -0.1287742,
+  "local_authority": "Camden",
+  "date_opened": "2011-01-29 00:00:00",
+  "date_closed": "2020-07-02 00:00:00"
+ },
+ {
+  "site_code": "IM1",
+  "site_name": "Camden - Holborn (Bee Midtown)",
+  "site_type": "Kerbside",
+  "latitude": 51.5173675146177,
+  "longitude": -0.1201947113171,
+  "local_authority": "Camden",
+  "date_opened": "2014-02-06 00:00:00",
+  "date_closed": "2023-05-02 00:00:00"
+ },
+ {
+  "site_code": "CD3",
+  "site_name": "Camden - Shaftesbury Avenue",
+  "site_type": "Roadside",
+  "latitude": 51.515532,
+  "longitude": -0.127027,
+  "local_authority": "Camden",
+  "date_opened": "2000-04-20 06:00:00",
+  "date_closed": "2016-11-04 00:00:00"
+ },
+ {
+  "site_code": "CD4",
+  "site_name": "Camden - St Martins College (NOX 1)",
+  "site_type": "Urban Background",
+  "latitude": 51.518846,
+  "longitude": -0.12034,
+  "local_authority": "Camden",
+  "date_opened": "2007-06-22 00:00:00",
+  "date_closed": "2010-07-13 00:00:00"
+ },
+ {
+  "site_code": "CD5",
+  "site_name": "Camden - St Martins College (NOX 2)",
+  "site_type": "Urban Background",
+  "latitude": 51.518846,
+  "longitude": -0.12034,
+  "local_authority": "Camden",
+  "date_opened": "2007-06-22 00:00:00",
+  "date_closed": "2011-01-15 00:00:00"
+ },
+ {
+  "site_code": "CD1",
+  "site_name": "Camden - Swiss Cottage",
+  "site_type": "Kerbside",
+  "latitude": 51.544219,
+  "longitude": -0.175284,
+  "local_authority": "Camden",
+  "date_opened": "1996-04-16 13:30:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "CT4",
+  "site_name": "City of London - Beech Street",
+  "site_type": "Roadside",
+  "latitude": 51.520225273171,
+  "longitude": -0.0961060474176381,
+  "local_authority": "City of London",
+  "date_opened": "2003-01-01 00:00:00",
+  "date_closed": "2023-07-03 00:00:00"
+ },
+ {
+  "site_code": "CTA",
+  "site_name": "City of London - Bell Wharf Lane",
+  "site_type": "Roadside",
+  "latitude": 51.5105969158391,
+  "longitude": -0.0921029031922594,
+  "local_authority": "City of London",
+  "date_opened": "2022-05-12 00:00:00",
+  "date_closed": "2023-07-03 00:00:00"
+ },
+ {
+  "site_code": "CT2",
+  "site_name": "City of London - Farringdon Street",
+  "site_type": "Kerbside",
+  "latitude": 51.5145253362314,
+  "longitude": -0.104515626337876,
+  "local_authority": "City of London",
+  "date_opened": "2003-01-01 00:00:00",
+  "date_closed": "2023-07-03 00:00:00"
+ },
+ {
+  "site_code": "CT9",
+  "site_name": "City of London - Guildhall",
+  "site_type": "Urban Background",
+  "latitude": 51.515907,
+  "longitude": -0.092023986,
+  "local_authority": "City of London",
+  "date_opened": "2022-01-24 00:00:00",
+  "date_closed": "2023-07-04 00:00:00"
+ },
+ {
+  "site_code": "CT1",
+  "site_name": "City of London - Senator House",
+  "site_type": "Urban Background",
+  "latitude": 51.511491,
+  "longitude": -0.095807,
+  "local_authority": "City of London",
+  "date_opened": "2001-10-10 14:45:00",
+  "date_closed": "2013-01-16 00:00:00"
+ },
+ {
+  "site_code": "CT3",
+  "site_name": "City of London - The Aldgate School",
+  "site_type": "Urban Background",
+  "latitude": 51.513847178423,
+  "longitude": -0.077765681752,
+  "local_authority": "City of London",
+  "date_opened": "2003-01-01 00:00:00",
+  "date_closed": "2023-06-30 00:00:00"
+ },
+ {
+  "site_code": "CT8",
+  "site_name": "City of London - Upper Thames Street",
+  "site_type": "Roadside",
+  "latitude": 51.5095436853913,
+  "longitude": -0.0873571979556188,
+  "local_authority": "City of London",
+  "date_opened": "2007-04-22 00:00:00",
+  "date_closed": "2021-09-13 00:00:00"
+ },
+ {
+  "site_code": "CT6",
+  "site_name": "City of London - Walbrook Wharf",
+  "site_type": "Roadside",
+  "latitude": 51.510499,
+  "longitude": -0.091634,
+  "local_authority": "City of London",
+  "date_opened": "2007-04-01 00:00:00",
+  "date_closed": "2023-01-09 00:00:00"
+ },
+ {
+  "site_code": "CR6",
+  "site_name": "Croydon - Euston Road",
+  "site_type": "Suburban",
+  "latitude": 51.3786978969719,
+  "longitude": -0.113796403332539,
+  "local_authority": "Croydon",
+  "date_opened": "2001-01-26 08:00:00",
+  "date_closed": "2009-05-22 00:00:00"
+ },
+ {
+  "site_code": "CR4",
+  "site_name": "Croydon - George Street",
+  "site_type": "Roadside",
+  "latitude": 51.374312,
+  "longitude": -0.096503,
+  "local_authority": "Croydon",
+  "date_opened": "1999-09-20 07:45:00",
+  "date_closed": "2015-04-02 00:00:00"
+ },
+ {
+  "site_code": "CR5",
+  "site_name": "Croydon - Norbury",
+  "site_type": "Kerbside",
+  "latitude": 51.411349,
+  "longitude": -0.12311,
+  "local_authority": "Croydon",
+  "date_opened": "2000-10-05 11:15:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "CR8",
+  "site_name": "Croydon - Norbury Manor",
+  "site_type": "Urban Background",
+  "latitude": 51.4100146321438,
+  "longitude": -0.127520139142022,
+  "local_authority": "Croydon",
+  "date_opened": "2014-12-01 00:00:00",
+  "date_closed": "2025-04-01 00:00:00"
+ },
+ {
+  "site_code": "CR9",
+  "site_name": "Croydon - Park Lane",
+  "site_type": "Roadside",
+  "latitude": 51.3739530635378,
+  "longitude": -0.0967638468323854,
+  "local_authority": "Croydon",
+  "date_opened": "2015-11-02 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "CR2",
+  "site_name": "Croydon - Purley Way",
+  "site_type": "Roadside",
+  "latitude": 51.362638,
+  "longitude": -0.117952,
+  "local_authority": "Croydon",
+  "date_opened": "1994-08-08 13:00:00",
+  "date_closed": "2010-10-08 00:00:00"
+ },
+ {
+  "site_code": "CR7",
+  "site_name": "Croydon - Purley Way A23",
+  "site_type": "Roadside",
+  "latitude": 51.3622305655403,
+  "longitude": -0.117604507351392,
+  "local_authority": "Croydon",
+  "date_opened": "2012-01-19 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "CR3",
+  "site_name": "Croydon - Thornton Heath",
+  "site_type": "Suburban",
+  "latitude": 51.40401,
+  "longitude": -0.098814,
+  "local_authority": "Croydon",
+  "date_opened": "1997-06-13 02:30:00",
+  "date_closed": "2013-02-08 00:00:00"
+ },
+ {
+  "site_code": "CY1",
+  "site_name": "Crystal Palace - Crystal Palace Parade",
+  "site_type": "Roadside",
+  "latitude": 51.424812,
+  "longitude": -0.075449,
+  "local_authority": "Croydon",
+  "date_opened": "1999-09-29 23:00:00",
+  "date_closed": "2010-07-29 00:00:00"
+ },
+ {
+  "site_code": "EA2",
+  "site_name": "Ealing - Acton Town Hall",
+  "site_type": "Roadside",
+  "latitude": 51.506628,
+  "longitude": -0.267934,
+  "local_authority": "Ealing",
+  "date_opened": "1996-09-09 15:00:00",
+  "date_closed": "2012-01-17 00:00:00"
+ },
+ {
+  "site_code": "EG1",
+  "site_name": "Ealing - Acton Town Hall (Partisol)",
+  "site_type": "Roadside",
+  "latitude": 51.5065947337762,
+  "longitude": -0.267964378025953,
+  "local_authority": "Ealing",
+  "date_opened": "2005-09-01 00:00:00",
+  "date_closed": "2006-10-04 00:00:00"
+ },
+ {
+  "site_code": "EA0",
+  "site_name": "Ealing - Acton Town Hall FDMS",
+  "site_type": "Roadside",
+  "latitude": 51.506628,
+  "longitude": -0.267934,
+  "local_authority": "Ealing",
+  "date_opened": "2005-04-29 09:00:00",
+  "date_closed": "2011-12-29 00:00:00"
+ },
+ {
+  "site_code": "EI3",
+  "site_name": "Ealing - Acton Vale ",
+  "site_type": "Urban Background",
+  "latitude": 51.5038527919816,
+  "longitude": -0.254668101620372,
+  "local_authority": "Ealing",
+  "date_opened": "2017-11-23 00:00:00",
+  "date_closed": "2025-02-14 00:00:00"
+ },
+ {
+  "site_code": "EA9",
+  "site_name": "Ealing - Court Way",
+  "site_type": "Roadside",
+  "latitude": 51.5225651213491,
+  "longitude": -0.264922414775277,
+  "local_authority": "Ealing",
+  "date_opened": "2005-04-19 01:00:00",
+  "date_closed": "2006-06-01 00:00:00"
+ },
+ {
+  "site_code": "EA1",
+  "site_name": "Ealing - Ealing Town Hall",
+  "site_type": "Urban Background",
+  "latitude": 51.5133230466548,
+  "longitude": -0.307529015473585,
+  "local_authority": "Ealing",
+  "date_opened": "1995-03-14 00:00:00",
+  "date_closed": "2012-01-10 00:00:00"
+ },
+ {
+  "site_code": "EI0",
+  "site_name": "Ealing - Greenford",
+  "site_type": "Urban Background",
+  "latitude": 51.5439296252862,
+  "longitude": -0.352801776049933,
+  "local_authority": "Ealing",
+  "date_opened": "2008-03-25 00:00:00",
+  "date_closed": "2009-04-15 00:00:00"
+ },
+ {
+  "site_code": "EA6",
+  "site_name": "Ealing - Hanger Lane Gyratory",
+  "site_type": "Roadside",
+  "latitude": 51.53085,
+  "longitude": -0.292488,
+  "local_authority": "Ealing",
+  "date_opened": "2003-08-04 00:00:00",
+  "date_closed": "2026-01-05 00:00:00"
+ },
+ {
+  "site_code": "EA8",
+  "site_name": "Ealing - Horn Lane",
+  "site_type": "Industrial",
+  "latitude": 51.518948,
+  "longitude": -0.265617,
+  "local_authority": "Ealing",
+  "date_opened": "2005-02-25 00:00:00",
+  "date_closed": "2026-01-05 00:00:00"
+ },
+ {
+  "site_code": "EI8",
+  "site_name": "Ealing - Horn Lane TEOM",
+  "site_type": "Industrial",
+  "latitude": 51.5189160348806,
+  "longitude": -0.265652052386222,
+  "local_authority": "Ealing",
+  "date_opened": "2005-02-25 00:00:00",
+  "date_closed": "2026-01-05 00:00:00"
+ },
+ {
+  "site_code": "EA7",
+  "site_name": "Ealing - Southall",
+  "site_type": "Urban Background",
+  "latitude": 51.508549,
+  "longitude": -0.392179,
+  "local_authority": "Ealing",
+  "date_opened": "2004-07-13 11:00:00",
+  "date_closed": "2016-01-26 00:00:00"
+ },
+ {
+  "site_code": "EI7",
+  "site_name": "Ealing - Southall FDMS",
+  "site_type": "Urban Background",
+  "latitude": 51.5085164816243,
+  "longitude": -0.392208459173292,
+  "local_authority": "Ealing",
+  "date_opened": "2011-12-28 11:00:00",
+  "date_closed": "2016-01-26 00:00:00"
+ },
+ {
+  "site_code": "EI2",
+  "site_name": "Ealing - Southall Railway",
+  "site_type": "Roadside",
+  "latitude": 51.5058699783726,
+  "longitude": -0.380241031512669,
+  "local_authority": "Ealing",
+  "date_opened": "2011-04-08 00:00:00",
+  "date_closed": "2014-01-06 00:00:00"
+ },
+ {
+  "site_code": "EI1",
+  "site_name": "Ealing - Western Avenue",
+  "site_type": "Roadside",
+  "latitude": 51.5236078191481,
+  "longitude": -0.265502631799754,
+  "local_authority": "Ealing",
+  "date_opened": "2010-03-19 00:00:00",
+  "date_closed": "2026-01-05 00:00:00"
+ },
+ {
+  "site_code": "EN5",
+  "site_name": "Enfield - Bowes Primary School",
+  "site_type": "Roadside",
+  "latitude": 51.613865,
+  "longitude": -0.125338,
+  "local_authority": "Enfield",
+  "date_opened": "2004-07-01 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "EN1",
+  "site_name": "Enfield - Bush Hill Park",
+  "site_type": "Suburban",
+  "latitude": 51.6450367266602,
+  "longitude": -0.0661800662229116,
+  "local_authority": "Enfield",
+  "date_opened": "1995-06-29 08:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "EN2",
+  "site_name": "Enfield - Church Street",
+  "site_type": "Roadside",
+  "latitude": 51.6524364979749,
+  "longitude": -0.084224624306898,
+  "local_authority": "Enfield",
+  "date_opened": "1997-12-21 16:00:00",
+  "date_closed": "2006-09-14 00:00:00"
+ },
+ {
+  "site_code": "EN4",
+  "site_name": "Enfield - Derby Road",
+  "site_type": "Roadside",
+  "latitude": 51.614864007,
+  "longitude": -0.0507658363689,
+  "local_authority": "Enfield",
+  "date_opened": "2000-02-29 09:15:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "EN7",
+  "site_name": "Enfield - Prince of Wales School",
+  "site_type": "Urban Background",
+  "latitude": 51.66864334727,
+  "longitude": -0.02200720557,
+  "local_authority": "Enfield",
+  "date_opened": "2012-07-09 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "EN3",
+  "site_name": "Enfield - Salisbury School",
+  "site_type": "Urban Background",
+  "latitude": 51.6374794858769,
+  "longitude": -0.0442461406121593,
+  "local_authority": "Enfield",
+  "date_opened": "1998-11-03 10:00:00",
+  "date_closed": "2008-07-28 00:00:00"
+ },
+ {
+  "site_code": "GN0",
+  "site_name": "Greenwich - A206 Burrage Grove",
+  "site_type": "Roadside",
+  "latitude": 51.490532,
+  "longitude": 0.074003,
+  "local_authority": "Greenwich",
+  "date_opened": "2004-10-07 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "GR7",
+  "site_name": "Greenwich - Blackheath",
+  "site_type": "Roadside",
+  "latitude": 51.472504,
+  "longitude": -0.012381,
+  "local_authority": "Greenwich",
+  "date_opened": "2002-03-08 11:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "GR4",
+  "site_name": "Greenwich - Eltham",
+  "site_type": "Suburban",
+  "latitude": 51.45258,
+  "longitude": 0.070766,
+  "local_authority": "Greenwich",
+  "date_opened": "1995-01-01 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "GB6",
+  "site_name": "Greenwich - Falconwood",
+  "site_type": "Roadside",
+  "latitude": 51.4563,
+  "longitude": 0.085606,
+  "local_authority": "Bexley",
+  "date_opened": "2000-10-18 09:15:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "GB0",
+  "site_name": "Greenwich - Falconwood FDMS",
+  "site_type": "Roadside",
+  "latitude": 51.4563,
+  "longitude": 0.085606,
+  "local_authority": "Bexley",
+  "date_opened": "2009-03-16 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "GN4",
+  "site_name": "Greenwich - Fiveways Sidcup Rd A20",
+  "site_type": "Roadside",
+  "latitude": 51.4346627060562,
+  "longitude": 0.0642224671704697,
+  "local_authority": "Greenwich",
+  "date_opened": "2011-01-24 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "GN6",
+  "site_name": "Greenwich - John Harrison Way",
+  "site_type": "Roadside",
+  "latitude": 51.4937746695818,
+  "longitude": 0.0107796237032558,
+  "local_authority": "Greenwich",
+  "date_opened": "2018-07-02 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "GN2",
+  "site_name": "Greenwich - Millennium Village",
+  "site_type": "Industrial",
+  "latitude": 51.492571,
+  "longitude": 0.017697,
+  "local_authority": "Greenwich",
+  "date_opened": "2004-08-01 00:00:00",
+  "date_closed": "2016-10-20 00:00:00"
+ },
+ {
+  "site_code": "GN3",
+  "site_name": "Greenwich - Plumstead High Street",
+  "site_type": "Roadside",
+  "latitude": 51.486957,
+  "longitude": 0.095111,
+  "local_authority": "Greenwich",
+  "date_opened": "2006-01-27 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "GR5",
+  "site_name": "Greenwich - Trafalgar Road",
+  "site_type": "Roadside",
+  "latitude": 51.4834490664601,
+  "longitude": -0.000145562683198809,
+  "local_authority": "Greenwich",
+  "date_opened": "1996-11-27 00:00:00",
+  "date_closed": "2015-12-02 00:00:00"
+ },
+ {
+  "site_code": "GN5",
+  "site_name": "Greenwich - Trafalgar Road (Hoskins St)",
+  "site_type": "Roadside",
+  "latitude": 51.4839072533485,
+  "longitude": 0.000407396935849736,
+  "local_authority": "Greenwich",
+  "date_opened": "2017-10-12 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "TL4",
+  "site_name": "Greenwich - Tunnel Avenue",
+  "site_type": "Roadside",
+  "latitude": 51.495057,
+  "longitude": 0.0041074676,
+  "local_authority": "Greenwich",
+  "date_opened": "2020-12-04 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "GR9",
+  "site_name": "Greenwich - Westhorne Avenue",
+  "site_type": "Roadside",
+  "latitude": 51.456357,
+  "longitude": 0.040725,
+  "local_authority": "Greenwich",
+  "date_opened": "2004-10-01 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "GR8",
+  "site_name": "Greenwich - Woolwich Flyover",
+  "site_type": "Roadside",
+  "latitude": 51.486884,
+  "longitude": 0.017901,
+  "local_authority": "Greenwich",
+  "date_opened": "2004-07-08 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "HN0",
+  "site_name": "Hackney - Amhurst Road",
+  "site_type": "Roadside",
+  "latitude": 51.5500559909969,
+  "longitude": -0.0633016026789864,
+  "local_authority": "Hackney",
+  "date_opened": "2022-04-01 00:00:00",
+  "date_closed": "2022-07-18 00:00:00"
+ },
+ {
+  "site_code": "HK4",
+  "site_name": "Hackney - Clapton",
+  "site_type": "Urban Background",
+  "latitude": 51.558884,
+  "longitude": -0.056388,
+  "local_authority": "Hackney",
+  "date_opened": "1993-10-08 16:15:00",
+  "date_closed": "2011-08-31 00:00:00"
+ },
+ {
+  "site_code": "HN1",
+  "site_name": "Hackney - Homerton Library",
+  "site_type": "Roadside",
+  "latitude": 51.5487472103442,
+  "longitude": -0.0418806967224562,
+  "local_authority": "Hackney",
+  "date_opened": "2022-04-01 00:00:00",
+  "date_closed": "2022-07-18 00:00:00"
+ },
+ {
+  "site_code": "HK6",
+  "site_name": "Hackney - Old Street",
+  "site_type": "Roadside",
+  "latitude": 51.526454,
+  "longitude": -0.08491,
+  "local_authority": "Hackney",
+  "date_opened": "2000-05-31 23:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "HK9",
+  "site_name": "Hackney - Queensbridge Road",
+  "site_type": "Roadside",
+  "latitude": 51.539324,
+  "longitude": -0.070078971,
+  "local_authority": "Hackney",
+  "date_opened": "2022-02-01 00:00:00",
+  "date_closed": "2022-07-18 00:00:00"
+ },
+ {
+  "site_code": "HF1",
+  "site_name": "Hammersmith and Fulham - Broadway",
+  "site_type": "Roadside",
+  "latitude": 51.4927663395234,
+  "longitude": -0.223601338284455,
+  "local_authority": "Hammersmith and Fulham",
+  "date_opened": "1999-08-23 18:15:00",
+  "date_closed": "2009-01-20 00:00:00"
+ },
+ {
+  "site_code": "HF2",
+  "site_name": "Hammersmith and Fulham - Brook Green",
+  "site_type": "Urban Background",
+  "latitude": 51.4964961786764,
+  "longitude": -0.220502981077703,
+  "local_authority": "Hammersmith and Fulham",
+  "date_opened": "2003-07-28 12:00:00",
+  "date_closed": "2009-01-21 00:00:00"
+ },
+ {
+  "site_code": "HF3",
+  "site_name": "Hammersmith and Fulham - Scrubs Lane",
+  "site_type": "Kerbside",
+  "latitude": 51.5308895141056,
+  "longitude": -0.237011005357313,
+  "local_authority": "Hammersmith and Fulham",
+  "date_opened": "2005-03-30 12:00:00",
+  "date_closed": "2005-10-27 14:00:00"
+ },
+ {
+  "site_code": "HF4",
+  "site_name": "Hammersmith and Fulham - Shepherds Bush",
+  "site_type": "Roadside",
+  "latitude": 51.5045625671557,
+  "longitude": -0.224670007031603,
+  "local_authority": "Hammersmith and Fulham",
+  "date_opened": "2011-10-31 00:00:00",
+  "date_closed": "2017-10-27 00:00:00"
+ },
+ {
+  "site_code": "HG4",
+  "site_name": "Haringey  - Priory Park South",
+  "site_type": "Urban Background",
+  "latitude": 51.5839769007709,
+  "longitude": -0.125400278484885,
+  "local_authority": "Haringey",
+  "date_opened": "2012-10-25 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "HG3",
+  "site_name": "Haringey - Bounds Green",
+  "site_type": "Roadside",
+  "latitude": 51.6059499474804,
+  "longitude": -0.123441120322547,
+  "local_authority": "Haringey",
+  "date_opened": "1999-06-21 00:15:00",
+  "date_closed": "2001-03-11 23:45:00"
+ },
+ {
+  "site_code": "HG1",
+  "site_name": "Haringey - Haringey Town Hall",
+  "site_type": "Roadside",
+  "latitude": 51.599302,
+  "longitude": -0.068218,
+  "local_authority": "Haringey",
+  "date_opened": "1994-11-29 12:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "HG2",
+  "site_name": "Haringey - Priory Park",
+  "site_type": "Urban Background",
+  "latitude": 51.586029,
+  "longitude": -0.126486,
+  "local_authority": "Haringey",
+  "date_opened": "1996-03-29 00:00:00",
+  "date_closed": "2012-10-25 00:00:00"
+ },
+ {
+  "site_code": "HR2",
+  "site_name": "Harrow - Pinner Road",
+  "site_type": "Roadside",
+  "latitude": 51.588417,
+  "longitude": -0.362989,
+  "local_authority": "Harrow",
+  "date_opened": "2003-06-16 00:00:00",
+  "date_closed": "2023-07-31 00:00:00"
+ },
+ {
+  "site_code": "HR1",
+  "site_name": "Harrow - Stanmore",
+  "site_type": "Urban Background",
+  "latitude": 51.617327,
+  "longitude": -0.298775,
+  "local_authority": "Harrow",
+  "date_opened": "1999-04-10 10:00:00",
+  "date_closed": "2023-08-14 00:00:00"
+ },
+ {
+  "site_code": "HV2",
+  "site_name": "Havering - Harold Hill",
+  "site_type": "Suburban",
+  "latitude": 51.6065992159427,
+  "longitude": 0.225359558329898,
+  "local_authority": "Havering",
+  "date_opened": "1998-03-31 23:00:00",
+  "date_closed": "2000-11-12 14:45:00"
+ },
+ {
+  "site_code": "HV1",
+  "site_name": "Havering - Rainham",
+  "site_type": "Roadside",
+  "latitude": 51.520787459334,
+  "longitude": 0.205460705694044,
+  "local_authority": "Havering",
+  "date_opened": "1995-12-08 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "HV3",
+  "site_name": "Havering - Romford",
+  "site_type": "Roadside",
+  "latitude": 51.572976,
+  "longitude": 0.179079,
+  "local_authority": "Havering",
+  "date_opened": "1998-12-22 10:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "LH2",
+  "site_name": "Heathrow Airport",
+  "site_type": "Industrial",
+  "latitude": 51.4792338864893,
+  "longitude": -0.440530703282971,
+  "local_authority": "Hillingdon",
+  "date_opened": "1999-01-01 00:00:00",
+  "date_closed": "2011-02-24 00:00:00"
+ },
+ {
+  "site_code": "LH0",
+  "site_name": "Hillingdon - Harlington",
+  "site_type": "Urban Background",
+  "latitude": 51.48878,
+  "longitude": -0.441627,
+  "local_authority": "Hillingdon",
+  "date_opened": "2004-01-01 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "HI2",
+  "site_name": "Hillingdon - Hillingdon Hospital",
+  "site_type": "Roadside",
+  "latitude": 51.526115,
+  "longitude": -0.459128,
+  "local_authority": "Hillingdon",
+  "date_opened": "2002-09-25 11:30:00",
+  "date_closed": "2011-06-01 00:00:00"
+ },
+ {
+  "site_code": "HI0",
+  "site_name": "Hillingdon - Keats Way",
+  "site_type": "Suburban",
+  "latitude": 51.496309,
+  "longitude": -0.460826,
+  "local_authority": "Hillingdon",
+  "date_opened": "1996-08-02 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "HI3",
+  "site_name": "Hillingdon - Oxford Avenue",
+  "site_type": "Roadside",
+  "latitude": 51.481131839058,
+  "longitude": -0.423760323968,
+  "local_authority": "Hillingdon",
+  "date_opened": "2005-03-01 12:00:00",
+  "date_closed": "2011-06-01 00:00:00"
+ },
+ {
+  "site_code": "HI1",
+  "site_name": "Hillingdon - South Ruislip",
+  "site_type": "Roadside",
+  "latitude": 51.552264,
+  "longitude": -0.402779,
+  "local_authority": "Hillingdon",
+  "date_opened": "1994-01-01 00:00:00",
+  "date_closed": "2011-06-01 00:00:00"
+ },
+ {
+  "site_code": "HS5",
+  "site_name": "Hounslow - Brentford",
+  "site_type": "Roadside",
+  "latitude": 51.489398,
+  "longitude": -0.310081,
+  "local_authority": "Hounslow",
+  "date_opened": "2003-06-02 13:00:00",
+  "date_closed": "2012-04-01 00:00:00"
+ },
+ {
+  "site_code": "HS1",
+  "site_name": "Hounslow - Brentford",
+  "site_type": "Roadside",
+  "latitude": 51.489321,
+  "longitude": -0.310002,
+  "local_authority": "Hounslow",
+  "date_opened": "1993-04-01 00:00:00",
+  "date_closed": "2003-01-01 00:00:00"
+ },
+ {
+  "site_code": "HS5",
+  "site_name": "Hounslow - Brentford",
+  "site_type": "Roadside",
+  "latitude": 51.489398,
+  "longitude": -0.310081,
+  "local_authority": "Hounslow",
+  "date_opened": "2003-06-02 13:00:00",
+  "date_closed": "2012-04-01 00:00:00"
+ },
+ {
+  "site_code": "HS1",
+  "site_name": "Hounslow - Brentford",
+  "site_type": "Roadside",
+  "latitude": 51.489321,
+  "longitude": -0.310002,
+  "local_authority": "Hounslow",
+  "date_opened": "1993-04-01 00:00:00",
+  "date_closed": "2003-01-01 00:00:00"
+ },
+ {
+  "site_code": "HS5",
+  "site_name": "Hounslow - Brentford",
+  "site_type": "Roadside",
+  "latitude": 51.489398,
+  "longitude": -0.310081,
+  "local_authority": "Hounslow",
+  "date_opened": "2003-06-02 13:00:00",
+  "date_closed": "2012-04-01 00:00:00"
+ },
+ {
+  "site_code": "HS3",
+  "site_name": "Hounslow - Brentford",
+  "site_type": "Roadside",
+  "latitude": 51.489321,
+  "longitude": -0.310002,
+  "local_authority": "Hounslow",
+  "date_opened": "1999-03-20 12:00:00",
+  "date_closed": "2003-01-01 00:00:00"
+ },
+ {
+  "site_code": "HS4",
+  "site_name": "Hounslow - Chiswick High Road",
+  "site_type": "Roadside",
+  "latitude": 51.492507,
+  "longitude": -0.257252,
+  "local_authority": "Hounslow",
+  "date_opened": "1999-08-26 11:45:00",
+  "date_closed": "2012-04-01 00:00:00"
+ },
+ {
+  "site_code": "HS2",
+  "site_name": "Hounslow - Cranford",
+  "site_type": "Suburban",
+  "latitude": 51.482982,
+  "longitude": -0.411895,
+  "local_authority": "Hounslow",
+  "date_opened": "1999-01-02 18:00:00",
+  "date_closed": "2012-04-01 00:00:00"
+ },
+ {
+  "site_code": "HS9",
+  "site_name": "Hounslow - Feltham",
+  "site_type": "Roadside",
+  "latitude": 51.4473877655456,
+  "longitude": -0.408732837243793,
+  "local_authority": "Hounslow",
+  "date_opened": "2009-08-19 00:00:00",
+  "date_closed": "2012-04-01 00:00:00"
+ },
+ {
+  "site_code": "HS7",
+  "site_name": "Hounslow - Hatton Cross",
+  "site_type": "Urban Background",
+  "latitude": 51.463402,
+  "longitude": -0.427525,
+  "local_authority": "Hounslow",
+  "date_opened": "2006-01-05 00:00:00",
+  "date_closed": "2012-04-01 00:00:00"
+ },
+ {
+  "site_code": "HS6",
+  "site_name": "Hounslow - Heston Road",
+  "site_type": "Roadside",
+  "latitude": 51.479129,
+  "longitude": -0.36476,
+  "local_authority": "Hounslow",
+  "date_opened": "2006-04-13 00:00:00",
+  "date_closed": "2012-04-01 00:00:00"
+ },
+ {
+  "site_code": "HS8",
+  "site_name": "Hounslow and Ealing - Gunnersbury Avenue",
+  "site_type": "Roadside",
+  "latitude": 51.500676298573,
+  "longitude": -0.284383168481281,
+  "local_authority": "Hounslow",
+  "date_opened": "2012-02-09 00:00:00",
+  "date_closed": "2015-02-09 00:00:00"
+ },
+ {
+  "site_code": "IS6",
+  "site_name": "Islington - Arsenal",
+  "site_type": "Urban Background",
+  "latitude": 51.557895,
+  "longitude": -0.106989,
+  "local_authority": "Islington",
+  "date_opened": "2007-03-14 00:00:00",
+  "date_closed": "2026-04-01 00:00:00"
+ },
+ {
+  "site_code": "IS5",
+  "site_name": "Islington - Duncan Terrace",
+  "site_type": "Roadside",
+  "latitude": 51.5322658877275,
+  "longitude": -0.104413186512037,
+  "local_authority": "Islington",
+  "date_opened": "2006-08-04 00:00:00",
+  "date_closed": "2009-03-11 00:00:00"
+ },
+ {
+  "site_code": "IS4",
+  "site_name": "Islington - Foxham Gardens",
+  "site_type": "Urban Background",
+  "latitude": 51.5600403385285,
+  "longitude": -0.131679425163847,
+  "local_authority": "Islington",
+  "date_opened": "2006-04-20 00:00:00",
+  "date_closed": "2009-03-11 00:00:00"
+ },
+ {
+  "site_code": "IS2",
+  "site_name": "Islington - Holloway Road",
+  "site_type": "Roadside",
+  "latitude": 51.555378,
+  "longitude": -0.116146,
+  "local_authority": "Islington",
+  "date_opened": "2000-07-12 06:45:00",
+  "date_closed": "2026-04-01 00:00:00"
+ },
+ {
+  "site_code": "IS1",
+  "site_name": "Islington - Upper Street",
+  "site_type": "Urban Background",
+  "latitude": 51.5407003385595,
+  "longitude": -0.103269578193151,
+  "local_authority": "Islington",
+  "date_opened": "1994-05-13 01:00:00",
+  "date_closed": "2007-03-14 00:00:00"
+ },
+ {
+  "site_code": "KC2",
+  "site_name": "Kensington and Chelsea - Cromwell Road",
+  "site_type": "Roadside",
+  "latitude": 51.49550391,
+  "longitude": -0.178809464,
+  "local_authority": "Kensington and Chelsea",
+  "date_opened": "1998-05-10 20:00:00",
+  "date_closed": "2017-10-27 00:00:00"
+ },
+ {
+  "site_code": "KC5",
+  "site_name": "Kensington and Chelsea - Earls Court Rd",
+  "site_type": "Kerbside",
+  "latitude": 51.49019756,
+  "longitude": -0.190863311,
+  "local_authority": "Kensington and Chelsea",
+  "date_opened": "2002-05-01 00:00:00",
+  "date_closed": "2017-10-27 00:00:00"
+ },
+ {
+  "site_code": "KG2",
+  "site_name": "Kensington and Chelsea - Green Screen BG",
+  "site_type": "Urban Background",
+  "latitude": 51.4894131144322,
+  "longitude": -0.193640886158949,
+  "local_authority": "Kensington and Chelsea",
+  "date_opened": "2013-10-30 00:00:00",
+  "date_closed": "2014-10-31 00:00:00"
+ },
+ {
+  "site_code": "KG1",
+  "site_name": "Kensington and Chelsea - Green Screen RS",
+  "site_type": "Roadside",
+  "latitude": 51.4894131144322,
+  "longitude": -0.193640886158949,
+  "local_authority": "Kensington and Chelsea",
+  "date_opened": "2013-10-30 00:00:00",
+  "date_closed": "2014-10-31 00:00:00"
+ },
+ {
+  "site_code": "KC4",
+  "site_name": "Kensington and Chelsea - Kings Road",
+  "site_type": "Roadside",
+  "latitude": 51.48743685,
+  "longitude": -0.168397129,
+  "local_authority": "Kensington and Chelsea",
+  "date_opened": "2000-09-27 14:15:00",
+  "date_closed": "2017-10-26 00:00:00"
+ },
+ {
+  "site_code": "KC3",
+  "site_name": "Kensington and Chelsea - Knightsbridge",
+  "site_type": "Roadside",
+  "latitude": 51.49913951,
+  "longitude": -0.164337605,
+  "local_authority": "Kensington and Chelsea",
+  "date_opened": "2000-03-28 11:30:00",
+  "date_closed": "2017-10-26 00:00:00"
+ },
+ {
+  "site_code": "KC1",
+  "site_name": "Kensington and Chelsea - North Ken",
+  "site_type": "Urban Background",
+  "latitude": 51.5210467476039,
+  "longitude": -0.213492139585065,
+  "local_authority": "Kensington and Chelsea",
+  "date_opened": "1995-03-17 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "KC7",
+  "site_name": "Kensington and Chelsea - North Ken FDMS",
+  "site_type": "Urban Background",
+  "latitude": 51.5210467476039,
+  "longitude": -0.213492139585065,
+  "local_authority": "Kensington and Chelsea",
+  "date_opened": "2003-11-21 00:00:00",
+  "date_closed": "2018-03-01 00:00:00"
+ },
+ {
+  "site_code": "KF1",
+  "site_name": "Kensington and Chelsea - North Ken FIDAS",
+  "site_type": "Urban Background",
+  "latitude": 51.5210467476039,
+  "longitude": -0.213492139585065,
+  "local_authority": "Kensington and Chelsea",
+  "date_opened": "2017-02-20 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "WE0",
+  "site_name": "Kensington and Chelsea - Pembroke Road",
+  "site_type": "Urban Background",
+  "latitude": 51.4942847451596,
+  "longitude": -0.199340350918702,
+  "local_authority": "Kensington and Chelsea",
+  "date_opened": "1987-01-01 00:00:00",
+  "date_closed": "2007-09-30 00:00:00"
+ },
+ {
+  "site_code": "GT1",
+  "site_name": "Kensington and Chelsea - Station Walk",
+  "site_type": "Urban Background",
+  "latitude": 51.5140519844289,
+  "longitude": -0.216532947379263,
+  "local_authority": "Kensington and Chelsea",
+  "date_opened": "2025-06-24 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "KT1",
+  "site_name": "Kingston - Chessington",
+  "site_type": "Suburban",
+  "latitude": 51.3566466913867,
+  "longitude": -0.316770841962737,
+  "local_authority": "Kingston",
+  "date_opened": "1996-01-24 14:00:00",
+  "date_closed": "2008-07-07 12:00:00"
+ },
+ {
+  "site_code": "A30",
+  "site_name": "Kingston - Kingston Bypass A3",
+  "site_type": "Roadside",
+  "latitude": 51.373553348648,
+  "longitude": -0.291969827871431,
+  "local_authority": "Kingston",
+  "date_opened": "1997-03-20 00:00:00",
+  "date_closed": "2007-09-30 00:00:00"
+ },
+ {
+  "site_code": "KT2",
+  "site_name": "Kingston - Town Centre",
+  "site_type": "Roadside",
+  "latitude": 51.4144307605309,
+  "longitude": -0.301706822060131,
+  "local_authority": "Kingston",
+  "date_opened": "1996-04-26 06:00:00",
+  "date_closed": "2000-06-23 08:45:00"
+ },
+ {
+  "site_code": "KT5",
+  "site_name": "Kingston Upon Thames - Cromwell Road",
+  "site_type": "Roadside",
+  "latitude": 51.412308,
+  "longitude": -0.29658478,
+  "local_authority": "Kingston",
+  "date_opened": "2018-03-12 00:00:00",
+  "date_closed": "2024-06-19 00:00:00"
+ },
+ {
+  "site_code": "KT6",
+  "site_name": "Kingston Upon Thames - Kingston Vale",
+  "site_type": "Roadside",
+  "latitude": 51.4355006647773,
+  "longitude": -0.257029893767993,
+  "local_authority": "Kingston",
+  "date_opened": "2018-03-12 00:00:00",
+  "date_closed": "2024-06-19 00:00:00"
+ },
+ {
+  "site_code": "KT3",
+  "site_name": "Kingston Upon Thames - Sopwith Way",
+  "site_type": "Roadside",
+  "latitude": 51.413691,
+  "longitude": -0.302269,
+  "local_authority": "Kingston",
+  "date_opened": "2015-03-10 00:00:00",
+  "date_closed": "2016-07-13 00:00:00"
+ },
+ {
+  "site_code": "KT4",
+  "site_name": "Kingston Upon Thames - Tolworth Broadway",
+  "site_type": "Roadside",
+  "latitude": 51.379312,
+  "longitude": -0.281259,
+  "local_authority": "Kingston",
+  "date_opened": "2015-04-13 00:00:00",
+  "date_closed": "2024-06-20 00:00:00"
+ },
+ {
+  "site_code": "LB5",
+  "site_name": "Lambeth - Bondway Interchange",
+  "site_type": "Industrial",
+  "latitude": 51.4854867739729,
+  "longitude": -0.124545234819213,
+  "local_authority": "Lambeth",
+  "date_opened": "2005-02-01 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "LB4",
+  "site_name": "Lambeth - Brixton Road",
+  "site_type": "Kerbside",
+  "latitude": 51.464113541162,
+  "longitude": -0.11458102695123,
+  "local_authority": "Lambeth",
+  "date_opened": "2003-12-18 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "LB1",
+  "site_name": "Lambeth - Christchurch Road",
+  "site_type": "Roadside",
+  "latitude": 51.444249,
+  "longitude": -0.121731,
+  "local_authority": "Lambeth",
+  "date_opened": "2000-09-24 09:00:00",
+  "date_closed": "2010-12-02 00:00:00"
+ },
+ {
+  "site_code": "LB3",
+  "site_name": "Lambeth - Loughborough Junct",
+  "site_type": "Urban Background",
+  "latitude": 51.464866,
+  "longitude": -0.099161,
+  "local_authority": "Lambeth",
+  "date_opened": "2001-12-19 11:00:00",
+  "date_closed": "2010-12-20 00:00:00"
+ },
+ {
+  "site_code": "LB6",
+  "site_name": "Lambeth - Streatham Green",
+  "site_type": "Urban Background",
+  "latitude": 51.4282131429499,
+  "longitude": -0.13186863879576,
+  "local_authority": "Lambeth",
+  "date_opened": "2009-08-17 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "LB2",
+  "site_name": "Lambeth - Vauxhall Cross",
+  "site_type": "Roadside",
+  "latitude": 51.4849123099475,
+  "longitude": -0.125173736606014,
+  "local_authority": "Lambeth",
+  "date_opened": "2001-12-19 15:00:00",
+  "date_closed": "2003-07-01 00:00:00"
+ },
+ {
+  "site_code": "WAC",
+  "site_name": "Lavender Hill",
+  "site_type": "Roadside",
+  "latitude": 51.4636903568111,
+  "longitude": -0.166713485994806,
+  "local_authority": "Wandsworth",
+  "date_opened": "2016-04-14 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "LW1",
+  "site_name": "Lewisham - Catford",
+  "site_type": "Urban Background",
+  "latitude": 51.445468,
+  "longitude": -0.020266,
+  "local_authority": "Lewisham",
+  "date_opened": "1996-08-02 15:00:00",
+  "date_closed": "2021-11-03 00:00:00"
+ },
+ {
+  "site_code": "LW5",
+  "site_name": "Lewisham - Deptford",
+  "site_type": "Urban Background",
+  "latitude": 51.4795312838203,
+  "longitude": -0.0252606031340197,
+  "local_authority": "Lewisham",
+  "date_opened": "2019-09-20 00:00:00",
+  "date_closed": "2025-04-01 00:00:00"
+ },
+ {
+  "site_code": "HP1",
+  "site_name": "Lewisham - Honor Oak Park",
+  "site_type": "Urban Background",
+  "latitude": 51.4496728960354,
+  "longitude": -0.0374153592115306,
+  "local_authority": "Lewisham",
+  "date_opened": "2018-11-27 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "LW6",
+  "site_name": "Lewisham - Laurence House Catford",
+  "site_type": "Roadside",
+  "latitude": 51.4447808,
+  "longitude": -0.0221832,
+  "local_authority": "Lewisham",
+  "date_opened": "2021-11-09 00:00:00",
+  "date_closed": "2025-04-01 00:00:00"
+ },
+ {
+  "site_code": "LW4",
+  "site_name": "Lewisham - Loampit Vale",
+  "site_type": "Roadside",
+  "latitude": 51.4646910611736,
+  "longitude": -0.0160682432041527,
+  "local_authority": "Lewisham",
+  "date_opened": "2012-07-10 00:00:00",
+  "date_closed": "2025-04-01 00:00:00"
+ },
+ {
+  "site_code": "LW3",
+  "site_name": "Lewisham - Mercury Way",
+  "site_type": "Industrial",
+  "latitude": 51.4811412184719,
+  "longitude": -0.0456708566668043,
+  "local_authority": "Lewisham",
+  "date_opened": "2010-01-01 00:00:00",
+  "date_closed": "2016-02-03 00:00:00"
+ },
+ {
+  "site_code": "LW2",
+  "site_name": "Lewisham - New Cross",
+  "site_type": "Roadside",
+  "latitude": 51.474954,
+  "longitude": -0.039641,
+  "local_authority": "Lewisham",
+  "date_opened": "2002-03-31 13:45:00",
+  "date_closed": "2025-04-01 00:00:00"
+ },
+ {
+  "site_code": "TD5",
+  "site_name": "London Teddington Bushy Park ",
+  "site_type": "Suburban",
+  "latitude": 51.4252560360937,
+  "longitude": -0.345608290872898,
+  "local_authority": "Richmond",
+  "date_opened": "2004-11-15 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "MR8",
+  "site_name": "Marylebone Road - BAM",
+  "site_type": "Kerbside",
+  "latitude": 51.5225093597419,
+  "longitude": -0.154622154656843,
+  "local_authority": "Westminster",
+  "date_opened": "2012-01-11 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "ME2",
+  "site_name": "Merton - Merton Road",
+  "site_type": "Roadside",
+  "latitude": 51.4161384794862,
+  "longitude": -0.192230805042824,
+  "local_authority": "Merton",
+  "date_opened": "2011-06-29 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "MEA",
+  "site_name": "Merton - Mitcham",
+  "site_type": "Roadside",
+  "latitude": 51.4055473441872,
+  "longitude": -0.164596893540707,
+  "local_authority": "Merton",
+  "date_opened": "2025-03-18 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "ME1",
+  "site_name": "Merton - Morden Civic Centre",
+  "site_type": "Roadside",
+  "latitude": 51.40105,
+  "longitude": -0.195929,
+  "local_authority": "Merton",
+  "date_opened": "2010-01-13 00:00:00",
+  "date_closed": "2017-01-27 00:00:00"
+ },
+ {
+  "site_code": "ME9",
+  "site_name": "Merton - Morden Civic Centre 2",
+  "site_type": "Roadside",
+  "latitude": 51.40162,
+  "longitude": -0.19589212,
+  "local_authority": "Merton",
+  "date_opened": "2017-01-27 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "MEB",
+  "site_name": "Merton - Plough Lane Wimbledon",
+  "site_type": "Roadside",
+  "latitude": 51.4304273690564,
+  "longitude": -0.185811823620255,
+  "local_authority": "Merton",
+  "date_opened": "2025-03-26 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "ME7",
+  "site_name": "Merton - Willow Lane Industrial Estate",
+  "site_type": "Industrial",
+  "latitude": 51.3943415638,
+  "longitude": -0.165161044588,
+  "local_authority": "Merton",
+  "date_opened": "2015-08-05 00:00:00",
+  "date_closed": "2016-04-01 00:00:00"
+ },
+ {
+  "site_code": "TD0",
+  "site_name": "National Physical Laboratory - Teddington",
+  "site_type": "Suburban",
+  "latitude": 51.4243043441456,
+  "longitude": -0.345714576446947,
+  "local_authority": "Richmond",
+  "date_opened": "1996-08-08 00:00:00",
+  "date_closed": "2018-01-01 00:00:00"
+ },
+ {
+  "site_code": "TL6",
+  "site_name": "Newham - Britannia Gate",
+  "site_type": "Roadside",
+  "latitude": 51.503858,
+  "longitude": 0.020574415,
+  "local_authority": "Newham",
+  "date_opened": "2020-12-04 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "NM2",
+  "site_name": "Newham - Cam Road",
+  "site_type": "Roadside",
+  "latitude": 51.537598,
+  "longitude": -0.002138,
+  "local_authority": "Newham",
+  "date_opened": "1998-08-18 00:00:00",
+  "date_closed": "2024-04-02 00:00:00"
+ },
+ {
+  "site_code": "NM4",
+  "site_name": "Newham - East Ham Town Hall",
+  "site_type": "Roadside",
+  "latitude": 51.5330166040173,
+  "longitude": 0.0550002064487128,
+  "local_authority": "Newham",
+  "date_opened": "2022-12-19 00:00:00",
+  "date_closed": "2024-04-02 00:00:00"
+ },
+ {
+  "site_code": "TL5",
+  "site_name": "Newham - Hoola Tower",
+  "site_type": "Roadside",
+  "latitude": 51.508198,
+  "longitude": 0.015002152,
+  "local_authority": "Newham",
+  "date_opened": "2021-03-08 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "NM1",
+  "site_name": "Newham - Tant Avenue",
+  "site_type": "Urban Background",
+  "latitude": 51.514764,
+  "longitude": 0.011989,
+  "local_authority": "Newham",
+  "date_opened": "1998-01-01 00:00:00",
+  "date_closed": "2003-12-31 00:00:00"
+ },
+ {
+  "site_code": "NM3",
+  "site_name": "Newham - Wren Close",
+  "site_type": "Urban Background",
+  "latitude": 51.514727,
+  "longitude": 0.014554,
+  "local_authority": "Newham",
+  "date_opened": "2003-03-21 00:00:00",
+  "date_closed": "2024-04-02 00:00:00"
+ },
+ {
+  "site_code": "RB3",
+  "site_name": "Redbridge - Fullwell Cross",
+  "site_type": "Kerbside",
+  "latitude": 51.593935,
+  "longitude": 0.085516,
+  "local_authority": "Redbridge",
+  "date_opened": "1999-11-20 14:00:00",
+  "date_closed": "2012-03-30 10:45:00"
+ },
+ {
+  "site_code": "RB4",
+  "site_name": "Redbridge - Gardner Close",
+  "site_type": "Roadside",
+  "latitude": 51.57661,
+  "longitude": 0.030858,
+  "local_authority": "Redbridge",
+  "date_opened": "1999-11-21 13:00:00",
+  "date_closed": "2024-04-03 00:00:00"
+ },
+ {
+  "site_code": "RB2",
+  "site_name": "Redbridge - Ilford Broadway",
+  "site_type": "Kerbside",
+  "latitude": 51.5583461865157,
+  "longitude": 0.0699915095238029,
+  "local_authority": "Redbridge",
+  "date_opened": "1999-12-01 14:00:00",
+  "date_closed": "2003-06-01 00:00:00"
+ },
+ {
+  "site_code": "RB7",
+  "site_name": "Redbridge - Ley Street",
+  "site_type": "Urban Background",
+  "latitude": 51.5694843315237,
+  "longitude": 0.0829074748964946,
+  "local_authority": "Redbridge",
+  "date_opened": "2014-05-15 00:00:00",
+  "date_closed": "2024-04-03 00:00:00"
+ },
+ {
+  "site_code": "RB1",
+  "site_name": "Redbridge - Perth Terrace",
+  "site_type": "Urban Background",
+  "latitude": 51.569221,
+  "longitude": 0.081821,
+  "local_authority": "Redbridge",
+  "date_opened": "1999-11-21 10:00:00",
+  "date_closed": "2014-05-13 00:00:00"
+ },
+ {
+  "site_code": "RB5",
+  "site_name": "Redbridge - South Woodford",
+  "site_type": "Roadside",
+  "latitude": 51.595851,
+  "longitude": 0.020087,
+  "local_authority": "Redbridge",
+  "date_opened": "2003-11-19 00:00:00",
+  "date_closed": "2012-03-30 10:45:00"
+ },
+ {
+  "site_code": "CE3",
+  "site_name": "Regent Street (The Crown Estate)",
+  "site_type": "Roadside",
+  "latitude": 51.5113771448991,
+  "longitude": -0.139249367757023,
+  "local_authority": "Westminster",
+  "date_opened": "2022-11-02 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "CE1",
+  "site_name": "Regent Street facade (The Crown Estate)",
+  "site_type": "Roadside",
+  "latitude": 51.5111824979787,
+  "longitude": -0.139114122784456,
+  "local_authority": "Westminster",
+  "date_opened": "2020-05-01 00:00:00",
+  "date_closed": "2023-03-01 00:00:00"
+ },
+ {
+  "site_code": "RI2",
+  "site_name": "Richmond Upon Thames - Barnes Wetlands",
+  "site_type": "Suburban",
+  "latitude": 51.476168,
+  "longitude": -0.230427,
+  "local_authority": "Richmond",
+  "date_opened": "2001-03-29 10:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "RI1",
+  "site_name": "Richmond Upon Thames - Castelnau",
+  "site_type": "Roadside",
+  "latitude": 51.480189,
+  "longitude": -0.237335,
+  "local_authority": "Richmond",
+  "date_opened": "2000-06-14 00:15:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "RHG",
+  "site_name": "Richmond Upon Thames - Chertsey Road",
+  "site_type": "Roadside",
+  "latitude": 51.4531422511004,
+  "longitude": -0.341218138106469,
+  "local_authority": "Richmond",
+  "date_opened": "2016-05-24 00:00:00",
+  "date_closed": "2020-08-06 00:00:00"
+ },
+ {
+  "site_code": "RHI",
+  "site_name": "Richmond Upon Thames - Richmond",
+  "site_type": "Kerbside",
+  "latitude": 51.4638976490621,
+  "longitude": -0.301685013378926,
+  "local_authority": "Richmond",
+  "date_opened": "2025-02-05 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "SK5",
+  "site_name": "Southwark - A2 Old Kent Road",
+  "site_type": "Roadside",
+  "latitude": 51.4804994936467,
+  "longitude": -0.0595528932573422,
+  "local_authority": "Southwark",
+  "date_opened": "2010-11-24 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "SK9",
+  "site_name": "Southwark - A2 Old Kent Road FIDAS",
+  "site_type": "Roadside",
+  "latitude": 51.4804994936467,
+  "longitude": -0.0595528932573422,
+  "local_authority": "Southwark",
+  "date_opened": "2010-11-24 00:00:00",
+  "date_closed": "2025-03-31 00:00:00"
+ },
+ {
+  "site_code": "SK6",
+  "site_name": "Southwark - Elephant and Castle",
+  "site_type": "Urban Background",
+  "latitude": 51.4931557048667,
+  "longitude": -0.101527038274853,
+  "local_authority": "Southwark",
+  "date_opened": "2013-01-23 00:00:00",
+  "date_closed": "2025-03-31 00:00:00"
+ },
+ {
+  "site_code": "SK7",
+  "site_name": "Southwark - Heygate",
+  "site_type": "Urban Background",
+  "latitude": 51.4929813788003,
+  "longitude": -0.0985378910481832,
+  "local_authority": "Southwark",
+  "date_opened": "2014-08-26 00:00:00",
+  "date_closed": "2015-11-11 00:00:00"
+ },
+ {
+  "site_code": "SK1",
+  "site_name": "Southwark - Larcom Street",
+  "site_type": "Urban Background",
+  "latitude": 51.490548,
+  "longitude": -0.09661,
+  "local_authority": "Southwark",
+  "date_opened": "1993-03-01 00:00:00",
+  "date_closed": "2009-06-17 12:00:00"
+ },
+ {
+  "site_code": "SKA",
+  "site_name": "Southwark - Lower Road",
+  "site_type": "Roadside",
+  "latitude": 51.4965604167321,
+  "longitude": -0.0530504472531612,
+  "local_authority": "Southwark",
+  "date_opened": "2020-11-24 00:00:00",
+  "date_closed": "2025-03-31 00:00:00"
+ },
+ {
+  "site_code": "SK2",
+  "site_name": "Southwark - Old Kent Road",
+  "site_type": "Roadside",
+  "latitude": 51.4819456792926,
+  "longitude": -0.0627176235171689,
+  "local_authority": "Southwark",
+  "date_opened": "1994-05-03 00:00:00",
+  "date_closed": "2006-04-21 00:00:00"
+ },
+ {
+  "site_code": "SKC",
+  "site_name": "Southwark - South Circular Road",
+  "site_type": "Roadside",
+  "latitude": 51.442633,
+  "longitude": -0.077653974,
+  "local_authority": "Southwark",
+  "date_opened": "2021-07-22 00:00:00",
+  "date_closed": "2025-03-31 00:00:00"
+ },
+ {
+  "site_code": "SK8",
+  "site_name": "Southwark - Tower Bridge Road",
+  "site_type": "Roadside",
+  "latitude": 51.5013906712066,
+  "longitude": -0.0782034373606952,
+  "local_authority": "Southwark",
+  "date_opened": "2019-06-01 00:00:00",
+  "date_closed": "2025-03-31 00:00:00"
+ },
+ {
+  "site_code": "SKB",
+  "site_name": "Southwark - Vicarage Grove",
+  "site_type": "Roadside",
+  "latitude": 51.4735803479615,
+  "longitude": -0.0877818536754426,
+  "local_authority": "Southwark",
+  "date_opened": "2021-01-26 00:00:00",
+  "date_closed": "2025-03-31 00:00:00"
+ },
+ {
+  "site_code": "ST8",
+  "site_name": "Sutton - Beddington Lane ",
+  "site_type": "Industrial",
+  "latitude": 51.3835652277943,
+  "longitude": -0.136417861473301,
+  "local_authority": "Sutton",
+  "date_opened": "2012-04-04 00:00:00",
+  "date_closed": "2020-10-16 00:00:00"
+ },
+ {
+  "site_code": "ST5",
+  "site_name": "Sutton - Beddington Lane north",
+  "site_type": "Industrial",
+  "latitude": 51.389286904505,
+  "longitude": -0.141661524779893,
+  "local_authority": "Sutton",
+  "date_opened": "2005-12-01 00:00:00",
+  "date_closed": "2024-06-20 00:00:00"
+ },
+ {
+  "site_code": "ST9",
+  "site_name": "Sutton - Beddington Village",
+  "site_type": "Roadside",
+  "latitude": 51.3712010773161,
+  "longitude": -0.131948824988095,
+  "local_authority": "Sutton",
+  "date_opened": "2020-10-16 00:00:00",
+  "date_closed": "2024-06-21 00:00:00"
+ },
+ {
+  "site_code": "ST3",
+  "site_name": "Sutton - Carshalton",
+  "site_type": "Suburban",
+  "latitude": 51.365318,
+  "longitude": -0.165936,
+  "local_authority": "Sutton",
+  "date_opened": "1995-05-05 07:00:00",
+  "date_closed": "2016-07-13 00:00:00"
+ },
+ {
+  "site_code": "ST2",
+  "site_name": "Sutton - North Cheam",
+  "site_type": "Urban Background",
+  "latitude": 51.3771892138334,
+  "longitude": -0.222044077436931,
+  "local_authority": "Sutton",
+  "date_opened": "1995-04-25 17:00:00",
+  "date_closed": "2002-05-03 00:00:00"
+ },
+ {
+  "site_code": "ST1",
+  "site_name": "Sutton - Robin Hood School",
+  "site_type": "Roadside",
+  "latitude": 51.365744,
+  "longitude": -0.195563,
+  "local_authority": "Sutton",
+  "date_opened": "1995-04-26 07:00:00",
+  "date_closed": "2002-04-26 00:00:00"
+ },
+ {
+  "site_code": "ST7",
+  "site_name": "Sutton - Therapia Lane",
+  "site_type": "Industrial",
+  "latitude": 51.3858391292126,
+  "longitude": -0.136339857220486,
+  "local_authority": "Sutton",
+  "date_opened": "2010-02-09 00:00:00",
+  "date_closed": "2012-02-10 00:00:00"
+ },
+ {
+  "site_code": "ST4",
+  "site_name": "Sutton - Wallington",
+  "site_type": "Kerbside",
+  "latitude": 51.3586596124998,
+  "longitude": -0.149723946604927,
+  "local_authority": "Sutton",
+  "date_opened": "2002-07-17 00:00:00",
+  "date_closed": "2024-06-20 00:00:00"
+ },
+ {
+  "site_code": "ST6",
+  "site_name": "Sutton - Worcester Park",
+  "site_type": "Kerbside",
+  "latitude": 51.377923,
+  "longitude": -0.240414,
+  "local_authority": "Sutton",
+  "date_opened": "2008-11-04 00:00:00",
+  "date_closed": "2024-06-20 00:00:00"
+ },
+ {
+  "site_code": "TH3",
+  "site_name": "Tower Hamlets - Bethnal Green",
+  "site_type": "Urban Background",
+  "latitude": 51.526737,
+  "longitude": -0.053869,
+  "local_authority": "Tower Hamlets",
+  "date_opened": "1999-10-24 12:00:00",
+  "date_closed": "2009-11-02 00:00:00"
+ },
+ {
+  "site_code": "TH4",
+  "site_name": "Tower Hamlets - Blackwall",
+  "site_type": "Roadside",
+  "latitude": 51.5150461674013,
+  "longitude": -0.00841849265642741,
+  "local_authority": "Tower Hamlets",
+  "date_opened": "2006-09-08 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "CW3",
+  "site_name": "Tower Hamlets - Jubilee Park",
+  "site_type": "Urban Background",
+  "latitude": 51.5029878731458,
+  "longitude": -0.0180219908165375,
+  "local_authority": "Hackney",
+  "date_opened": "2022-01-17 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "TH7",
+  "site_name": "Tower Hamlets - King Edward Memorial Park",
+  "site_type": "Urban Background",
+  "latitude": 51.5094228799835,
+  "longitude": -0.0505278232872832,
+  "local_authority": "Tower Hamlets",
+  "date_opened": "2025-04-01 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "TH2",
+  "site_name": "Tower Hamlets - Mile End Road",
+  "site_type": "Roadside",
+  "latitude": 51.5225462561171,
+  "longitude": -0.0420823040635312,
+  "local_authority": "Tower Hamlets",
+  "date_opened": "1994-03-10 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "TH6",
+  "site_name": "Tower Hamlets - Millwall Park",
+  "site_type": "Urban Background",
+  "latitude": 51.4891342634,
+  "longitude": -0.0129769309432,
+  "local_authority": "Tower Hamlets",
+  "date_opened": "2015-07-06 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "TH1",
+  "site_name": "Tower Hamlets - Poplar",
+  "site_type": "Urban Background",
+  "latitude": 51.510012,
+  "longitude": -0.019866,
+  "local_authority": "Tower Hamlets",
+  "date_opened": "1994-01-04 17:00:00",
+  "date_closed": "2013-07-02 00:00:00"
+ },
+ {
+  "site_code": "TH5",
+  "site_name": "Tower Hamlets - Victoria Park",
+  "site_type": "Urban Background",
+  "latitude": 51.5399327394691,
+  "longitude": -0.0331740581778178,
+  "local_authority": "Tower Hamlets",
+  "date_opened": "2012-07-25 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "WL3",
+  "site_name": "Waltham Forest - Chingford",
+  "site_type": "Roadside",
+  "latitude": 51.6251928602333,
+  "longitude": -0.0225973251092037,
+  "local_authority": "Waltham Forest",
+  "date_opened": "2003-07-14 12:00:00",
+  "date_closed": "2007-04-18 00:00:00"
+ },
+ {
+  "site_code": "WL4",
+  "site_name": "Waltham Forest - Crooked Billet",
+  "site_type": "Kerbside",
+  "latitude": 51.601718495597,
+  "longitude": -0.016498263136,
+  "local_authority": "Waltham Forest",
+  "date_opened": "2007-11-01 00:00:00",
+  "date_closed": "2011-04-01 00:00:00"
+ },
+ {
+  "site_code": "WL1",
+  "site_name": "Waltham Forest - Dawlish Road",
+  "site_type": "Urban Background",
+  "latitude": 51.562422,
+  "longitude": -0.004891,
+  "local_authority": "Waltham Forest",
+  "date_opened": "1998-07-05 08:00:00",
+  "date_closed": "2011-04-01 00:00:00"
+ },
+ {
+  "site_code": "WL5",
+  "site_name": "Waltham Forest - Leyton",
+  "site_type": "Roadside",
+  "latitude": 51.556257676576,
+  "longitude": -0.013629679065,
+  "local_authority": "Waltham Forest",
+  "date_opened": "2007-09-20 00:00:00",
+  "date_closed": "2011-04-01 00:00:00"
+ },
+ {
+  "site_code": "WL2",
+  "site_name": "Waltham Forest - Mobile",
+  "site_type": "Roadside",
+  "latitude": 51.564725703428,
+  "longitude": 0.00399595335237289,
+  "local_authority": "Waltham Forest",
+  "date_opened": "1998-07-09 12:15:00",
+  "date_closed": "2001-10-12 11:00:00"
+ },
+ {
+  "site_code": "WAA",
+  "site_name": "Wandsworth - Battersea",
+  "site_type": "Roadside",
+  "latitude": 51.4794395281222,
+  "longitude": -0.141786953606306,
+  "local_authority": "Wandsworth",
+  "date_opened": "2012-06-19 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "WA1",
+  "site_name": "Wandsworth - Garratt Lane",
+  "site_type": "Roadside",
+  "latitude": 51.4548722085,
+  "longitude": -0.193003999857021,
+  "local_authority": "Wandsworth",
+  "date_opened": "1995-04-01 00:00:00",
+  "date_closed": "1996-02-26 00:00:00"
+ },
+ {
+  "site_code": "WA4",
+  "site_name": "Wandsworth - High Street",
+  "site_type": "Roadside",
+  "latitude": 51.4564354037312,
+  "longitude": -0.191157408342927,
+  "local_authority": "Wandsworth",
+  "date_opened": "1998-01-31 23:00:00",
+  "date_closed": "2007-08-30 08:45:00"
+ },
+ {
+  "site_code": "WA9",
+  "site_name": "Wandsworth - Putney",
+  "site_type": "Urban Background",
+  "latitude": 51.4650325059122,
+  "longitude": -0.215824580947572,
+  "local_authority": "Wandsworth",
+  "date_opened": "2011-01-04 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "WA7",
+  "site_name": "Wandsworth - Putney High Street",
+  "site_type": "Kerbside",
+  "latitude": 51.463429,
+  "longitude": -0.215871,
+  "local_authority": "Wandsworth",
+  "date_opened": "2009-07-09 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "WA8",
+  "site_name": "Wandsworth - Putney High Street Facade",
+  "site_type": "Roadside",
+  "latitude": 51.4637206047191,
+  "longitude": -0.215890144123119,
+  "local_authority": "Wandsworth",
+  "date_opened": "2010-04-23 00:00:00",
+  "date_closed": "2024-01-25 00:00:00"
+ },
+ {
+  "site_code": "WA3",
+  "site_name": "Wandsworth - Roehampton",
+  "site_type": "Rural",
+  "latitude": 51.4569204685076,
+  "longitude": -0.245562490498382,
+  "local_authority": "Wandsworth",
+  "date_opened": "1994-10-31 00:00:00",
+  "date_closed": "2000-11-24 13:45:00"
+ },
+ {
+  "site_code": "WA6",
+  "site_name": "Wandsworth - Tooting",
+  "site_type": "Roadside",
+  "latitude": 51.425284,
+  "longitude": -0.164452,
+  "local_authority": "Wandsworth",
+  "date_opened": "2008-07-01 00:00:00",
+  "date_closed": "2009-08-28 13:30:00"
+ },
+ {
+  "site_code": "WAB",
+  "site_name": "Wandsworth - Tooting High Street",
+  "site_type": "Roadside",
+  "latitude": 51.429331,
+  "longitude": -0.166524,
+  "local_authority": "Wandsworth",
+  "date_opened": "2015-06-11 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "WA2",
+  "site_name": "Wandsworth - Wandsworth Town Hall",
+  "site_type": "Urban Background",
+  "latitude": 51.456962,
+  "longitude": -0.191074,
+  "local_authority": "Wandsworth",
+  "date_opened": "1994-10-11 14:00:00",
+  "date_closed": "2024-01-24 00:00:00"
+ },
+ {
+  "site_code": "CE2",
+  "site_name": "Waterloo Place (The Crown Estate)",
+  "site_type": "Roadside",
+  "latitude": 51.5075819137762,
+  "longitude": -0.133068372704093,
+  "local_authority": "Westminster",
+  "date_opened": "2020-12-21 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "BP0",
+  "site_name": "Westminster - Bridge Place",
+  "site_type": "Urban Background",
+  "latitude": 51.4938505656999,
+  "longitude": -0.143808451030166,
+  "local_authority": "Westminster",
+  "date_opened": "1990-07-03 00:00:00",
+  "date_closed": "1999-11-21 13:45:00"
+ },
+ {
+  "site_code": "WMA",
+  "site_name": "Westminster - Buckingham Palace Road",
+  "site_type": "Roadside",
+  "latitude": 51.4932327916861,
+  "longitude": -0.147391757027028,
+  "local_authority": "Westminster",
+  "date_opened": "2018-02-18 00:00:00",
+  "date_closed": "2020-04-27 10:00:00"
+ },
+ {
+  "site_code": "WMC",
+  "site_name": "Westminster - Cavendish Square",
+  "site_type": "Roadside",
+  "latitude": 51.5168016452062,
+  "longitude": -0.145657269364411,
+  "local_authority": "Westminster",
+  "date_opened": "2018-05-31 12:00:00",
+  "date_closed": "2023-06-08 00:00:00"
+ },
+ {
+  "site_code": "WM4",
+  "site_name": "Westminster - Charing Cross Library",
+  "site_type": "Roadside",
+  "latitude": 51.510205,
+  "longitude": -0.128177,
+  "local_authority": "Westminster",
+  "date_opened": "2007-02-01 00:00:00",
+  "date_closed": "2011-01-11 00:00:00"
+ },
+ {
+  "site_code": "WM5",
+  "site_name": "Westminster - Covent Garden",
+  "site_type": "Urban Background",
+  "latitude": 51.5119769825798,
+  "longitude": -0.12162720332856,
+  "local_authority": "Westminster",
+  "date_opened": "2009-07-10 00:00:00",
+  "date_closed": "2026-04-01 00:00:00"
+ },
+ {
+  "site_code": "GV2",
+  "site_name": "Westminster - Duke Street (Grosvenor)",
+  "site_type": "Roadside",
+  "latitude": 51.5129998832095,
+  "longitude": -0.150913488159214,
+  "local_authority": "Westminster",
+  "date_opened": "2019-08-22 16:00:00",
+  "date_closed": "2024-01-08 00:00:00"
+ },
+ {
+  "site_code": "GV1",
+  "site_name": "Westminster - Ebury Street (Grosvenor)",
+  "site_type": "Roadside",
+  "latitude": 51.493492,
+  "longitude": -0.149906,
+  "local_authority": "Westminster",
+  "date_opened": "2018-12-11 09:00:00",
+  "date_closed": "2023-11-15 00:00:00"
+ },
+ {
+  "site_code": "WMD",
+  "site_name": "Westminster - Elizabeth Bridge",
+  "site_type": "Roadside",
+  "latitude": 51.4922482333024,
+  "longitude": -0.147114752900186,
+  "local_authority": "Westminster",
+  "date_opened": "2020-04-27 00:00:00",
+  "date_closed": "2026-04-01 00:00:00"
+ },
+ {
+  "site_code": "WM0",
+  "site_name": "Westminster - Horseferry Road",
+  "site_type": "Urban Background",
+  "latitude": 51.494681,
+  "longitude": -0.131938,
+  "local_authority": "Westminster",
+  "date_opened": "2001-07-17 00:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "MY1",
+  "site_name": "Westminster - Marylebone Road",
+  "site_type": "Kerbside",
+  "latitude": 51.52254,
+  "longitude": -0.15459,
+  "local_authority": "Westminster",
+  "date_opened": "1997-05-26 12:00:00",
+  "date_closed": null
+ },
+ {
+  "site_code": "MY7",
+  "site_name": "Westminster - Marylebone Road FDMS",
+  "site_type": "Kerbside",
+  "latitude": 51.52254,
+  "longitude": -0.15459,
+  "local_authority": "Westminster",
+  "date_opened": "2004-01-22 12:00:00",
+  "date_closed": "2021-12-21 08:00:00"
+ },
+ {
+  "site_code": "WM6",
+  "site_name": "Westminster - Oxford Street",
+  "site_type": "Kerbside",
+  "latitude": 51.5139287404213,
+  "longitude": -0.152792701881935,
+  "local_authority": "Westminster",
+  "date_opened": "2011-01-01 00:00:00",
+  "date_closed": "2026-04-01 00:00:00"
+ },
+ {
+  "site_code": "WMZ",
+  "site_name": "Westminster - Oxford Street 2",
+  "site_type": "Kerbside",
+  "latitude": 51.5139287404213,
+  "longitude": -0.152792701881935,
+  "local_authority": "Westminster",
+  "date_opened": "2016-05-13 00:00:00",
+  "date_closed": "2016-09-08 00:00:00"
+ },
+ {
+  "site_code": "WMB",
+  "site_name": "Westminster - Oxford Street East",
+  "site_type": "Roadside",
+  "latitude": 51.516066,
+  "longitude": -0.13516388,
+  "local_authority": "Westminster",
+  "date_opened": "2018-06-05 00:00:00",
+  "date_closed": "2023-06-08 00:00:00"
+ },
+ {
+  "site_code": "WME",
+  "site_name": "Westminster - Queens Park Gardens",
+  "site_type": "Urban Background",
+  "latitude": 51.5286629697555,
+  "longitude": -0.20875365618309,
+  "local_authority": "Westminster",
+  "date_opened": "2025-07-03 00:00:00",
+  "date_closed": "2026-04-01 00:00:00"
+ },
+ {
+  "site_code": "NB1",
+  "site_name": "Westminster - Strand (Northbank BID)",
+  "site_type": "Roadside",
+  "latitude": 51.5119701188277,
+  "longitude": -0.116713103528546,
+  "local_authority": "Westminster",
+  "date_opened": "2015-04-28 00:00:00",
+  "date_closed": "2023-08-12 00:00:00"
+ },
+ {
+  "site_code": "WM8",
+  "site_name": "Westminster - Victoria",
+  "site_type": "Urban Background",
+  "latitude": 51.497066177578,
+  "longitude": -0.142438820740121,
+  "local_authority": "Westminster",
+  "date_opened": "2014-01-06 00:00:00",
+  "date_closed": "2016-04-04 00:00:00"
+ },
+ {
+  "site_code": "WM9",
+  "site_name": "Westminster - Victoria (Victoria BID)",
+  "site_type": "Roadside",
+  "latitude": 51.4977331829735,
+  "longitude": -0.14424140916201,
+  "local_authority": "Westminster",
+  "date_opened": "2016-08-08 00:00:00",
+  "date_closed": "2017-09-20 00:00:00"
+ },
+ {
+  "site_code": "VS1",
+  "site_name": "Westminster - Victoria Street",
+  "site_type": "Kerbside",
+  "latitude": 51.4992450135925,
+  "longitude": -0.131285173980659,
+  "local_authority": "Westminster",
+  "date_opened": "2003-05-02 15:00:00",
+  "date_closed": "2008-04-01 00:00:00"
+ }
+]

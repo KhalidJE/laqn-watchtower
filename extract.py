@@ -49,10 +49,10 @@ def save_raw(site_code, payload, start, end):
 
 def load(conn, site_code, payload):
     if not payload:
-        return 0, 0
+        return 0
     data = payload.get("AirQualityData", {}).get("Data")
     if not data:
-        return 0, 0
+        return 0
     rows = []
     for entry in data:
         measured_at = entry.get("@MeasurementDateGMT")
@@ -61,6 +61,8 @@ def load(conn, site_code, payload):
             value = float(actual_val)
         else:
             value = None
+        if (value is None): # if the value is parsed and turned into a None, don't store it
+            continue
         species = entry.get("@SpeciesCode")
         rows.append((site_code, species, measured_at, value))
 
@@ -68,8 +70,7 @@ def load(conn, site_code, payload):
         "INSERT INTO readings VALUES (?, ?, ?, ?) ON CONFLICT DO NOTHING", # prevents original data from being overwritten - makes the tool more diagnostic
         rows
     )
-    fetched = len(rows)
-    return fetched
+    return len(rows)
 
 def chunks(start, end, days=14):
     cursor = start

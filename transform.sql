@@ -67,3 +67,25 @@ SELECT
 FROM site_species ss
 LEFT JOIN readings r USING (site_code, species_code)
 GROUP BY 1, 2;
+
+-- table showing when a flatline occurs - data remaining stale for 8 hours counts as a flatline
+CREATE OR REPLACE TABLE flatline_runs AS
+WITH ordered AS (
+    SELECT site_code, species_code, measured_at, value,
+        CASE
+            WHEN value is DISTINCT FROM lag(value) OVER (PARTITION BY site_code, species_code ORDER BY measured_at) THEN 1 ELSE 0 END AS changed
+    FROM readings
+    WHERE value IS NOT NULL
+),
+grouped AS (
+    SELECT *,
+        sum(changed) OVER (PARTITION BY site_code, species_code ORDER BY measured_at) AS run_id
+    FROM ordered
+)
+SELECT site_code, species_code, VALUE AS stuck_value,
+    min(measured_at) AS run_start,
+    max(measured_at) AS run_end,
+    count(*) AS run_length
+FROM grouped
+GROUP BY site_code, species_code, value, run_id
+HAVING count(*) >= 8; -- set to 8 hours

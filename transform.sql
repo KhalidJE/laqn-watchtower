@@ -85,7 +85,11 @@ grouped AS (
 SELECT site_code, species_code, VALUE AS stuck_value,
     min(measured_at) AS run_start,
     max(measured_at) AS run_end,
-    count(*) AS run_length
+    count(*) AS run_length,
+    CASE
+        WHEN value <= 1 THEN 'low_or_resolution'
+        ELSE 'suspect_stuck'
+    END AS flatline_type
 FROM grouped
 GROUP BY site_code, species_code, value, run_id
 HAVING count(*) >= 8; -- set to 8 hours

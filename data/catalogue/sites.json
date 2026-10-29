@@ -1160,6 +1160,16 @@
   "date_closed": "2011-06-01 00:00:00"
  },
  {
+  "site_code": "HS1",
+  "site_name": "Hounslow - Brentford",
+  "site_type": "Roadside",
+  "latitude": 51.489321,
+  "longitude": -0.310002,
+  "local_authority": "Hounslow",
+  "date_opened": "1993-04-01 00:00:00",
+  "date_closed": "2003-01-01 00:00:00"
+ },
+ {
   "site_code": "HS5",
   "site_name": "Hounslow - Brentford",
   "site_type": "Roadside",

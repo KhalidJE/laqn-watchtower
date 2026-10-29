@@ -66,6 +66,8 @@ def load(conn, site_code, payload):
         species = entry.get("@SpeciesCode")
         rows.append((site_code, species, measured_at, value))
 
+    if not rows:
+        return 0
     conn.executemany(
         "INSERT INTO readings VALUES (?, ?, ?, ?) ON CONFLICT DO NOTHING", # prevents original data from being overwritten - makes the tool more diagnostic
         rows

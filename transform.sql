@@ -100,7 +100,7 @@ WITH fs AS (
     SELECT site_code,
     count(*) AS channels,
     count(*) FILTER (WHERE status = 'live') AS live_channels,
-    count(*) FILTER (WHERE stats = 'late') AS late_channels,
+    count(*) FILTER (WHERE status = 'late') AS late_channels,
     count(*) FILTER (WHERE status IN ('silent', 'down')) AS down_channels,
     max(last_reading) AS last_reading
     FROM feed_status GROUP BY site_code

@@ -15,13 +15,16 @@ As the pipeline aims to continuously collect data over time, duplication is expl
 
 A 48-hour lookback is also used. Monitoring stations don't always sync in real-time so late data arrivals need to be accounted for. If data is uploaded hours later, there's a high risk of the wider dataset having gaps. If a snapshot is initially excluded, it can be added later, but once a snapshot is in the database, it can't be overwritten. This avoids the issue highlighted previously while protecting against the unique problem of missing data.
 
-Initial data pulls for a new site backfill for 90 days to provide comparison for sensor and data health information between this season and the previous one (e.g. are the sensors behaving more normally in the autumn compared to the hot days of summer?) and once again allows the support engineer to find patterns in data reliability. The first fetch brought in 599,240 readings (from 29/07/26 to 28/07/26) and 72 sites responsive sites (sites that have sent data). The 90 days of backfill are chunked to avoid pulling an entire 90 days worth of hourly data for each site; instead, each site provides 14 days of data at a time, with 60 seconds given before timeout and the ability to retry if a fetch initially fails. Due to the nature of the pipeline, any missing data can be added on retries or future attempts without overwriting pre-existing data. Data is saved in .json files that each hold a max of 14 days worth of data.
+Initial data pulls for a new site backfill for 90 days to provide comparison for sensor and data health information between this season and the previous one (e.g. are the sensors behaving more normally in the autumn compared to the hot days of summer?) and once again allows the support engineer to find patterns in data reliability. The first fetch brought in 599,240 readings (from 29/07/26 to 28/07/26) and 72 responsive sites (sites that have sent data). The 90 days of backfill are chunked to avoid pulling an entire 90 days worth of hourly data for each site; instead, each site provides 14 days of data at a time, with 60 seconds given before timeout and the ability to retry if a fetch initially fails. Due to the nature of the pipeline, any missing data can be added on retries or future attempts without overwriting pre-existing data. Data is saved in .json files that each hold a max of 14 days worth of data.
 
 ## How It Works
 
 ## How To Run It
 
 ## What I Would Do Next
+I would add a 'retrieved_at' field for data being fed into the pipeline to compare provisional and ratified data; since data can be changed after its initial upload, it would be a good idea to have the original value as well as the new value. For instance, if a reading initially shows 1000 then drops down to 10 a few days later, the table could hold information that would show the engineer when exactly the data was changed and what it was changed to.
+
+Another piece of future work is to pull data from a 2nd API to validate the accuracy of the data coming from LAQN. Since this is a reliability tool and the firm hypothetically prides itself on providing clean, reliable data to paying customers, it would be a big upgrade to the integrity of their product. LAQN also seems to struggle with providing accurate data in a timely manner so this would be a good way to counteract that and even add placeholder data when none is available from LAQN, thus keeping the tool always running reliably.
 
 ## Where AI Helped
 

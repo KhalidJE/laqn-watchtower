@@ -3,3 +3,4 @@
 duckdb.exe
 *.db
 __pycache__/
+exports/

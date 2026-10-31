@@ -121,3 +121,11 @@ FROM sites s
 LEFT JOIN fs USING (site_code)
 LEFT JOIN sh USING (site_code)
 WHERE s.date_closed IS NULL AND s.latitude IS NOT NULL;
+
+CREATE OR REPLACE TABLE site_validity AS
+SELECT site_code,
+    count(*) FILTER (WHERE flag <> 'ok') AS suspect_readings,
+    count(*) AS total_readings
+FROM reading_flags
+WHERE measured_at >= (SELECT max(measured_at) FROM readings) - INTERVAL 7 DAY
+GROUP BY site_code;

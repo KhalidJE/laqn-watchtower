@@ -57,11 +57,11 @@ CREATE OR REPLACE TABLE feed_status AS
 SELECT
     ss.site_code, ss.species_code,
     max(r.measured_at) AS last_reading,
-    date_diff('hour', max(r.measured_at), now()) AS hours_since,
+    date_diff('hour', max(r.measured_at), (SELECT max(measured_at) FROM readings)) AS hours_since,
     CASE
         WHEN max(r.measured_at) IS NULL THEN 'silent'
-        WHEN date_diff('hour', max(r.measured_at), now()) <= 2 THEN 'live'
-        WHEN date_diff('hour', max(r.measured_at), now()) <= 24 THEN 'late'
+        WHEN date_diff('hour', max(r.measured_at), (SELECT max(measured_at) FROM readings)) <= 4 THEN 'live'
+        WHEN date_diff('hour', max(r.measured_at), (SELECT max(measured_at) FROM readings)) <= 24 THEN 'late'
         ELSE 'down'
     END AS status
 FROM site_species ss

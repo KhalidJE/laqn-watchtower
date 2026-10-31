@@ -93,3 +93,31 @@ SELECT site_code, species_code, VALUE AS stuck_value,
 FROM grouped
 GROUP BY site_code, species_code, value, run_id
 HAVING count(*) >= 8; -- set to 8 hours
+
+-- for liveness and completeness per site, gets exported for Tableau map
+CREATE OR REPLACE TABLE site_map AS
+WITH fs AS (
+    SELECT site_code,
+    count(*) AS channels,
+    count(*) FILTER (WHERE status = 'live') AS live_channels,
+    count(*) FILTER (WHERE stats = 'late') AS late_channels,
+    count(*) FILTER (WHERE status IN ('silent', 'down')) AS down_channels,
+    max(last_reading) AS last_reading
+    FROM feed_status GROUP BY site_code
+),
+sh AS (
+    SELECT site_code, round(avg(completeness_percent), 1) AS avg_completeness
+    FROM site_health GROUP BY site_code
+)
+SELECT s.site_code, s.site_name, s.site_type, s.local_authority, s.latitude, s.longitude,
+    fs.channels, fs.live_channels, fs.late_channels, fs.down_channels, fs.last_reading, sh.avg_completeness,
+    CASE
+        WHEN fs.down_channels > 0 THEN 'Down'
+        WHEN fs.late_channels > 0 THEN 'Late'
+        WHEN fs.live_channels > 0 THEN 'Live'
+        ELSE 'Unknown'
+    END AS status
+FROM sites s
+LEFT JOIN fs USING (site_code)
+LEFT JOIN sh USING (site_code)
+WHERE s.date_closed IS NULL AND s.latitude IS NOT NULL;

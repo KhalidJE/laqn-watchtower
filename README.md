@@ -21,13 +21,13 @@ Initial data pulls for a new site backfill for 90 days to provide comparison for
 
 ## How It Works
 Initial data was pulled from the following endpoints and fed into a 'readings' table:
-    * /Information/MonitoringSiteSpecies/GroupName=London/Json - for the site/species monitoring information
-    * /Data/Site/SiteCode={SiteCode}/StartDate={start}/EndDate={end}/Json - for information on all London sites
+- /Information/MonitoringSiteSpecies/GroupName=London/Json - for the site/species monitoring information
+- /Data/Site/SiteCode={SiteCode}/StartDate={start}/EndDate={end}/Json - for information on all London sites
 
 The 'readings' table is created once if it doesn't exist and uses site, species and measurement time combinations as its primary key. Raw API responses are saved to data/raw. Data from the monitoring site catalogue is turned into two lists: site details and pollutants (species) measured at each site. These two lists are saved as .json files in data/catalogue. Closed sites are kept in the catalogue but aren't included in the database.
 
 Health advice data was pulled from the following endpoint:
-    * /Information/IndexHealthAdvice/AirQualityIndex={i}/Json
+- /Information/IndexHealthAdvice/AirQualityIndex={i}/Json
 
 It fetches information for index levels 1 - 10. During development, the bulk endpoint was returning a HTTP 400 error so this function makes per-index requests. It uses a set to get rid of duplicate bands in the output. This data is saved to data/index/health_advice.json. Alongside this data, a seed file is also placed in data/index: daqi_thresholds.csv. This holds consistent information regarding what low, moderate, high and very high values look like for supported pollutants, according to the Data Air Quality Index (uses the 1-10 index scale) provided by the DEFRA (see attributions).
 
@@ -52,11 +52,11 @@ I would add a 'retrieved_at' field for data being fed into the pipeline to compa
 Another piece of future work is to pull data from a 2nd API to validate the accuracy of the data coming from LAQN. Since this is a reliability tool and the firm hypothetically prides itself on providing clean, reliable data to paying customers, it would be a big upgrade to the integrity of their product. LAQN also seems to struggle with providing accurate data in a timely manner so this would be a good way to counteract that and even add placeholder data when none is available from LAQN, thus keeping the firm's clients always provided for.
 
 ## Where AI Helped
-    * Initial resources/links for learning
-    * Debugging of extract.py and transform.sql
-    * Troubleshooting issues with IndexHealthAdvice endpoint
-    * Switching to chunking for data backfill
-    * SQL queries for troubleshooting
+- Initial resources/links for learning
+- Debugging of extract.py and transform.sql
+- Troubleshooting issues with IndexHealthAdvice endpoint
+- Switching to chunking for data backfill
+- SQL queries for troubleshooting
 
 ### Attributions
 Air quality information is obtained from the Environmental Research Group of Imperial College London, using data from the London Air Quality Network (https://www.londonair.org.uk), and is licensed under the Open Government Licence Version 2.0.

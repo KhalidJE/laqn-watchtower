@@ -122,6 +122,7 @@ LEFT JOIN fs USING (site_code)
 LEFT JOIN sh USING (site_code)
 WHERE s.date_closed IS NULL AND s.latitude IS NOT NULL;
 
+-- for data validity per-site, gets exported for Tableau map
 CREATE OR REPLACE TABLE site_validity AS
 SELECT site_code,
     count(*) FILTER (WHERE flag <> 'ok') AS suspect_readings,

@@ -6,17 +6,20 @@ RAW_DATA = pathlib.Path("data/raw");
 RAW_DATA.mkdir(parents=True, exist_ok=True)
 
 # per-site watermarks instead of global so each site's window starts from its own last reading
+# finds the latest measurement timestamp in the database for each site to use as a starting point for the next fetch
 def site_watermarks(conn):
     rows = conn.execute(
         "SELECT site_code, max(measured_at) FROM readings GROUP BY site_code"
     ).fetchall()
     return {code: ts for code, ts in rows}
 
+# fetches monitoring sites and returns them as a list
 def fetch_sites():
     url = f"{BASE_URL}/Information/MonitoringSiteSpecies/GroupName=London/Json"
     data = get_json(url)
     return data["Sites"]["Site"]
 
+# reshape site response into two lists: site details and species measured at each site
 def flatten_sites(sites):
     site_rows, ss_rows = [], []
     for s in sites:
@@ -38,15 +41,19 @@ def flatten_sites(sites):
             ss_rows.append({"site_code": code, "species_code": sp["@SpeciesCode"]})
     return site_rows, ss_rows
 
+# requests measurements for a site over a date range
 def fetch_window(site_code, start, end):
     url = f"{BASE_URL}/Data/Site/SiteCode={site_code}/StartDate={start}/EndDate={end}/Json"
     return get_json(url)
 
+# saves the API response as a JSON to keep track of raw data
 def save_raw(site_code, payload, start, end):
     path = RAW_DATA / f"{site_code}_{start}_{end}.json"
     path.write_text(json.dumps(payload), encoding="utf-8")
     return path
 
+# extracts measurement rows and inserts valid readings (non-null values)
+# if a matching row already exists but with a null value, the new value replaces it but an existing non-null value gets preserved
 def load(conn, site_code, payload):
     if not payload:
         return 0
@@ -77,6 +84,7 @@ def load(conn, site_code, payload):
     )
     return len(rows)
 
+# splits a date range into requests of up to 14 days, making large fetches manageable
 def chunks(start, end, days=14):
     cursor = start
     while cursor < end:
@@ -84,8 +92,9 @@ def chunks(start, end, days=14):
         yield cursor, next
         cursor = next
 
+# prepares the database, refreshes site catalogues, calculates each site's fetch window, processes windows
 def run():
-    conn = duckdb.connect(DB)
+    conn = duckdb.connect(DB) # creates the readings table first time
     conn.execute("""
     CREATE TABLE IF NOT EXISTS readings (
         site_code    VARCHAR,
@@ -113,7 +122,7 @@ def run():
     for s in sites:
         s_code = s["@SiteCode"]
         wm = marks.get(s_code)
-        start = (wm.date() - dt.timedelta(days=2)) if wm else (today - dt.timedelta(days=90))
+        start = (wm.date() - dt.timedelta(days=2)) if wm else (today - dt.timedelta(days=90)) # uses latest stored timestamp to choose where to resume
         for chunk_start, chunk_end in chunks(start, end):
             try:
                 payload = fetch_window(s_code, chunk_start, chunk_end)

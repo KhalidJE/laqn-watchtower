@@ -69,7 +69,10 @@ def load(conn, site_code, payload):
     if not rows:
         return 0
     conn.executemany(
-        "INSERT INTO readings VALUES (?, ?, ?, ?) ON CONFLICT DO NOTHING", # prevents original data from being overwritten - makes the tool more diagnostic
+        """INSERT INTO readings VALUES (?, ?, ?, ?)
+        ON CONFLICT (site_code, species_code, measured_at) DO UPDATE
+        SET value = excluded.value
+        WHERE readings.value IS NULL AND excluded.value IS NOT NULL""", # prevents non-null values from being overwritten - makes the tool more diagnostic
         rows
     )
     return len(rows)

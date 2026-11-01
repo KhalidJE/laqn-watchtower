@@ -36,7 +36,6 @@ def load_advice(payloads):
     return out
 
 def run():
-    #conn = duckdb.connect(DB)
     payloads = fetch_index_advice()
     flat_advice = load_advice(payloads)
 

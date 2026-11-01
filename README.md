@@ -64,9 +64,8 @@ Air quality information is obtained from the Environmental Research Group of Imp
 DAQI threshold information is sourced from the Department for Environment, Food and Rural Affairs (DEFRA), approved by the Committee on the Medical Effects of Air Pollutants (COMEAP). Licenced under the Open Government Licence.
 
 ### Note on Difference Between Raw Data Files
-#### Data Lookback Logic
-    * Watermarks are created using a SELECT statement that returns the latest inserted reading for a site.
-    * These watermarks are used to decide when the latest data added was, and then check a further 48 hours prior (the lookback). In other words, the lookback only counts from the watermark, not from the current time. For this reason, earlier files may overlap their readings, but this data is not duplicated when inserted into the database.
-    * If data hasn't been inserted for a couple of days, a file can end up spanning a couple of days (further than the 48 hours), until new, none-null values are found and inserted into the database to update the watermark for a site.
-    * Originally (pre-Oct 29th), the load() function in extract.py converted Null values to Python None and inserted the rows into the readings table regardless. This meant that empty readings were inserted up until Oct 29th, leading to watermarks pointing at this date as the last date of data entry, despite data not having been entered.
-    * This has been resolved since but earlier files were not deleted or replaced in the interest of preserving raw data and not hiding any part of the development process.
+- Watermarks are created using a SELECT statement that returns the latest inserted reading for a site.
+- These watermarks are used to decide when the latest data added was, and then check a further 48 hours prior (the lookback). In other words, the lookback only counts from the watermark, not from the current time. For this reason, earlier files may overlap their readings, but this data is not duplicated when inserted into the database.
+- If data hasn't been inserted for a couple of days, a file can end up spanning a couple of days (further than the 48 hours), until new, none-null values are found and inserted into the database to update the watermark for a site.
+- Originally (pre-Oct 29th), the load() function in extract.py converted Null values to Python None and inserted the rows into the readings table regardless. This meant that empty readings were inserted up until Oct 29th, leading to watermarks pointing at this date as the last date of data entry, despite data not having been entered.
+- This has been resolved since but earlier files were not deleted or replaced in the interest of preserving raw data and not hiding any part of the development process.

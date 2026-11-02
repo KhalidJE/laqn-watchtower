@@ -17,7 +17,16 @@ As the pipeline aims to continuously collect data over time, duplication is expl
 
 A 48-hour lookback is also used, counting back from the last watermark. Monitoring stations don't always sync in real-time so late data arrivals need to be accounted for. If data is uploaded hours later, there's a high risk of the wider dataset having gaps. If a snapshot is initially excluded, it can be added later, but once a snapshot is in the database, it can't be overwritten. This avoids the issue highlighted previously while protecting against the unique problem of missing data.
 
-Initial data pulls for a new site backfill for 90 days to provide comparison for sensor and data health information between this season and the previous one (e.g. are the sensors behaving more normally in the autumn compared to the hot days of summer?) and once again allows the support engineer to find patterns in data reliability. The first fetch brought in 599,240 readings (from 29/07/26 to 28/07/26) and 72 responsive sites (sites that have sent data). The 90 days of backfill are chunked to avoid pulling an entire 90 days worth of hourly data for each site; instead, each site provides 14 days of data at a time, with 60 seconds given before timeout and the ability to retry if a fetch initially fails. Due to the nature of the pipeline, any missing data can be added on retries or future attempts without overwriting pre-existing data. Data is saved in .json files that each hold a max of 14 days worth of data.
+Initial data pulls for a new site backfill for 90 days to provide comparison for sensor and data health information between this season and the previous one (e.g. are the sensors behaving more normally in the autumn compared to the hot days of summer?) and once again allows the support engineer to find patterns in data reliability. The first fetch brought in 599,240 readings (from 29/07/26 to 28/10/26) and 72 responsive sites (sites that have sent data). The 90 days of backfill are chunked to avoid pulling an entire 90 days worth of hourly data for each site; instead, each site provides 14 days of data at a time, with 60 seconds given before timeout and the ability to retry if a fetch initially fails. Due to the nature of the pipeline, any missing data can be added on retries or future attempts without overwriting pre-existing data. Data is saved in .json files that each hold a max of 14 days worth of data.
+
+### Additional Notes
+Data flags:
+- No Data -> null reading
+- Impossible Negative -> a value that is below 0
+- Impossible High -> a value above 2000 (an absurd number)
+- Extreme -> a reading matched to the DAQI threshold in the Very High band
+
+Flatline runs are counted as 8 consecutive observations, rather than 8 uninterrupted hours. Since the data isn't currently fetched hourly, the flatline instead looks at the first instance of this repeated value and the most recent to determine a start and end date. Null values don't interrupt this since they're no longer added to the table, meaning if a run is detected, that means that every time that sensor has reported a value, it has been the same as the last 8+ times.
 
 ## How It Works
 Initial data was pulled from the following endpoints and fed into a 'readings' table:
@@ -29,12 +38,12 @@ The 'readings' table is created once if it doesn't exist and uses site, species 
 Health advice data was pulled from the following endpoint:
 - /Information/IndexHealthAdvice/AirQualityIndex={i}/Json
 
-It fetches information for index levels 1 - 10. During development, the bulk endpoint was returning a HTTP 400 error so this function makes per-index requests. It uses a set to get rid of duplicate bands in the output. This data is saved to data/index/health_advice.json. Alongside this data, a seed file is also placed in data/index: daqi_thresholds.csv. This holds consistent information regarding what low, moderate, high and very high values look like for supported pollutants, according to the Data Air Quality Index (uses the 1-10 index scale) provided by the DEFRA (see attributions).
+It fetches information for index levels 1 - 10. During development, the bulk endpoint was returning a HTTP 400 error so this function makes per-index requests. It uses a set to get rid of duplicate bands in the output. This data is saved to data/index/health_advice.json. Alongside this data, a seed file is also placed in data/index: daqi_thresholds.csv. This holds consistent information regarding what low, moderate, high and very high values look like for supported pollutants (does not support all of the LAQN's measured pollutants), according to the Data Air Quality Index (uses the 1-10 index scale) provided by the DEFRA (see attributions). The health advice is fetched and loaded into the database but is no longer planned to be used for the current version of the dashboard.
 
-The final dashboard makes use of as much data as possible to paint a picture of what's happening behind the scenes. This dashboard shows two maps: one for general feed status per site (colour coded based on worst status (i.e. if a site has 3 live channels and 1 down, it will still show red)), and one for status per species (i.e. individual sensor status). It also a shows a chart for data completeness per site (presence of all expected data). Tooltips provide all necessary data for identifying faulty sensors or issues with data consistency, allowing the engineer to know which sites need to be worked on and prioritised.
+The final dashboard makes use of as much data as possible to paint a picture of what's happening behind the scenes. This dashboard shows two maps: one for general feed status per site (colour coded based on worst status (i.e. if a site has 3 live channels and 1 down, it will still show red)), and one for status per species (i.e. individual sensor status). It also a shows a chart for data completeness per site (presence of all expected data), as well as a table for flagged readings. Tooltips provide all necessary data for identifying faulty sensors or issues with data consistency, allowing the engineer to know which sites need to be worked on and prioritised.
 
 ## How To Run It
-Requires Python 3.11+ and Node.js 18+. API Credentials are not needed for any fetches.
+Requires Python 3.11+. API Credentials are not needed for any fetches.
 
 Install the Python dependencies from the project root:
 ```pip install -r requirements.txt```
@@ -44,7 +53,7 @@ Install the Python dependencies from the project root:
 3. Run 'build.py' from the project root to build the model ('feed.db'). This also exports 'site_map.csv' and 'feed_status.csv'.
 
 ### Viewing the Dashboard
-The pipeline outputs exports/site_map.csv and exports/feed_status.csv and the Tableau workbook (support_dashboard.twb) reads these. Open it in Tableau Public/Desktop and navigate to Data > Refresh to see the latest data after completing steps 1 and 3. A packaged .twb is included so it opens with the data bundled if needed.
+The pipeline outputs site_map.csv, feed_status.csv, and flagged_readings.csv to be read by the Tableau workbook (support_dashboard.twb). Open it in Tableau Public/Desktop and navigate to Data > Refresh to see the latest data after completing steps 1 and 3. A packaged .twbx is included so it opens with the data bundled if needed.
 
 ## What I Would Do Next
 I would add a 'retrieved_at' field for data being fed into the pipeline to compare provisional and ratified data; since data can be changed after its initial upload, it would be a good idea to have the original value as well as the new value. For instance, if a reading initially shows 1000 then drops down to 10 a few days later, the table could hold information that would show the engineer when exactly the data was changed and what it was changed to.

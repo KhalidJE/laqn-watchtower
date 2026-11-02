@@ -28,6 +28,19 @@ Data flags:
 
 Flatline runs are counted as 8 consecutive observations, rather than 8 uninterrupted hours. Since the data isn't currently fetched hourly, the flatline instead looks at the first instance of this repeated value and the most recent to determine a start and end date. Null values don't interrupt this since they're no longer added to the table, meaning if a run is detected, that means that every time that sensor has reported a value, it has been the same as the last 8+ times.
 
+All tables:
+- readings -> initial data returned by the API
+- sites -> all site information
+- site_species -> all species in each given site
+- index_health_advice -> health advice from IndexHealthAdvice endpoint (not currently in use)
+- daqi_thresholds -> information brought in from the seed file in data/index
+- reading_flags -> any readings that are flagged as concerning or impossible
+- site_health -> stores data completeness per-site
+- feed_status -> shows sensor liveness by showing which channels are providing data on time
+- flatline_runs -> holds information regarding channels that return the same value consecutively
+- site_map -> shows liveness and completeness of data per-site, exported to a map in Tableau
+- site_validity -> for a tooltip showing suspect readings
+
 ## How It Works
 Initial data was pulled from the following endpoints and fed into a 'readings' table:
 - /Information/MonitoringSiteSpecies/GroupName=London/Json - for the site/species monitoring information

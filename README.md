@@ -10,6 +10,8 @@ It makes use of both the data to measure how normal it is (e.g. is a particular 
 
 The LAQN data is not clean or consistent. A data vendor reselling it can't promise clients reliability so this tool exists to help the firm patch up its gaps, uneven ratification lag and dead channels. It makes these problems visible to the support engineer before a client runs into them. The messiness of the data makes this tool incredibly valuable.
 
+The final dashboard produced can be seen below:
+
 ## The Data
 The data used in this pipeline is managed by the Environmental Research Group of Imperial College London, and is sourced from the London Air Quality Network API. It uses fixed sensors at several locations scattered across different boroughs in London. The gases/pollutants it tracks include Nitrogen Dioxide (NO<sub>2</sub>), Ozone (O<sub>3</sub>), fine particulate matter (PM<sub>10</sub> and PM<sub>2.5</sub>), and more.
 
@@ -18,6 +20,8 @@ As the pipeline aims to continuously collect data over time, duplication is expl
 A 48-hour lookback is also used, counting back from the last watermark. Monitoring stations don't always sync in real-time so late data arrivals need to be accounted for. If data is uploaded hours later, there's a high risk of the wider dataset having gaps. If a snapshot is initially excluded, it can be added later, but once a snapshot is in the database, it can't be overwritten. This avoids the issue highlighted previously while protecting against the unique problem of missing data.
 
 Initial data pulls for a new site backfill for 90 days to provide comparison for sensor and data health information between this season and the previous one (e.g. are the sensors behaving more normally in the autumn compared to the hot days of summer?) and once again allows the support engineer to find patterns in data reliability. The first fetch brought in 599,240 readings (from 29/07/26 to 28/10/26) and 72 responsive sites (sites that have sent data). The 90 days of backfill are chunked to avoid pulling an entire 90 days worth of hourly data for each site; instead, each site provides 14 days of data at a time, with 60 seconds given before timeout and the ability to retry if a fetch initially fails. Due to the nature of the pipeline, any missing data can be added on retries or future attempts without overwriting pre-existing data. Data is saved in .json files that each hold a max of 14 days worth of data.
+
+Data is split across different layers as per the medallion architecture. See the following diagram for more information:
 
 ### Additional Notes
 Data flags:
@@ -29,7 +33,7 @@ Data flags:
 Flatline runs are counted as 8 consecutive observations, rather than 8 uninterrupted hours. Since the data isn't currently fetched hourly, the flatline instead looks at the first instance of this repeated value and the most recent to determine a start and end date. Null values don't interrupt this since they're no longer added to the table, meaning if a run is detected, that means that every time that sensor has reported a value, it has been the same as the last 8+ times.
 
 All tables:
-- readings -> initial data returned by the API
+- readings -> non-null measurements parsed from raw API files (silver layer)
 - sites -> all site information
 - site_species -> all species in each given site
 - index_health_advice -> health advice from IndexHealthAdvice endpoint (not currently in use)
@@ -42,11 +46,11 @@ All tables:
 - site_validity -> for a tooltip showing suspect readings
 
 ## How It Works
-Initial data was pulled from the following endpoints and fed into a 'readings' table:
+Initial data is pulled from the following endpoints and saved as raw JSON:
 - /Information/MonitoringSiteSpecies/GroupName=London/Json - for the site/species monitoring information
 - /Data/Site/SiteCode={SiteCode}/StartDate={start}/EndDate={end}/Json - for information on all London sites
 
-The 'readings' table is created once if it doesn't exist and uses site, species and measurement time combinations as its primary key. Raw API responses are saved to data/raw. Data from the monitoring site catalogue is turned into two lists: site details and pollutants (species) measured at each site. These two lists are saved as .json files in data/catalogue. Closed sites are kept in the catalogue but aren't included in the database.
+`bronze_to_silver.sql` creates the `readings` table if needed, reads the raw JSON files in `data/raw`, and inserts non-empty values using site, species, and measurement time as the primary key. `build.py` processes the files one at a time and moves them into `data/archived` after the transformations and exports succeed; files left in `data/raw` are retried on the next build. The primary key prevents duplicate readings, while existing non-null values are preserved. `silver_to_gold.sql` builds the derived monitoring tables and exports. Data from the monitoring site catalogue is turned into two lists: site details and pollutants (species) measured at each site. These two lists are saved as .json files in `data/catalogue`. Closed sites are kept in the catalogue but aren't included in the database.
 
 Health advice data was pulled from the following endpoint:
 - /Information/IndexHealthAdvice/AirQualityIndex={i}/Json
@@ -61,9 +65,9 @@ Requires Python 3.11+. API Credentials are not needed for any fetches.
 Install the Python dependencies from the project root:
 ```pip install -r requirements.txt```
 
-1. Run 'extract.py' from the project root to pull new readings.
-2. Optional: run 'extract_index.py' to pull index health advice data. This is already saved to data/index so this step is optional.
-3. Run 'build.py' from the project root to build the model ('feed.db'). This also exports 'site_map.csv' and 'feed_status.csv'.
+1. Run `extract.py` from the project root to fetch new readings as raw JSON files.
+2. Optional: run `extract_index.py` to pull index health advice data. This is already saved to data/index so this step is optional.
+3. Run `build.py` from the project root to run the bronze-to-silver and silver-to-gold transformations and build the model (`feed.db`). Successfully processed raw files are moved to data/archived. This also exports `site_map.csv`, `feed_status.csv`, and `flagged_readings.csv`.
 
 ### Viewing the Dashboard
 The pipeline outputs site_map.csv, feed_status.csv, and flagged_readings.csv to be read by the Tableau workbook (support_dashboard.twb). Open it in Tableau Public/Desktop and navigate to Data > Refresh to see the latest data after completing steps 1 and 3. A packaged .twbx is included so it opens with the data bundled if needed.
@@ -75,11 +79,12 @@ Another piece of future work is to pull data from a 2nd API to validate the accu
 
 ## Where AI Helped
 - Initial resources/links for learning
-- Debugging of extract.py and transform.sql
+- Debugging of extract.py and transformation SQL
 - Troubleshooting issues with IndexHealthAdvice endpoint
 - Switching to chunking for data backfill
 - SQL queries for troubleshooting
 - Implementing flatline runs into the map filter
+- Troubleshooting issues with migrating readings logic to bronze_to_silver.sql
 
 ### Attributions
 Air quality information is obtained from the Environmental Research Group of Imperial College London, using data from the London Air Quality Network (https://www.londonair.org.uk), and is licensed under the Open Government Licence Version 2.0.

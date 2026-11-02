@@ -108,9 +108,21 @@ WITH fs AS (
 sh AS (
     SELECT site_code, round(avg(completeness_percent), 1) AS avg_completeness
     FROM site_health GROUP BY site_code
+),
+fr AS ( -- adds suspected flatline runs to the export so they can be shown as a tooltip on the dashboard
+    SELECT site_code,
+        count(*) FILTER (
+            WHERE flatline_type = 'suspect_stuck'
+        ) AS suspect_flatline_runs
+    FROM flatline_runs
+    WHERE run_end >= (
+        SELECT max(measured_at) FROM readings
+    ) - INTERVAL 7 DAY
+    GROUP BY site_code
 )
 SELECT s.site_code, s.site_name, s.site_type, s.local_authority, s.latitude, s.longitude,
     fs.channels, fs.live_channels, fs.late_channels, fs.down_channels, fs.last_reading, sh.avg_completeness,
+    coalesce(fr.suspect_flatline_runs, 0) AS suspect_flatline_runs,
     CASE
         WHEN fs.down_channels > 0 THEN 'Down'
         WHEN fs.late_channels > 0 THEN 'Late'
@@ -120,9 +132,10 @@ SELECT s.site_code, s.site_name, s.site_type, s.local_authority, s.latitude, s.l
 FROM sites s
 LEFT JOIN fs USING (site_code)
 LEFT JOIN sh USING (site_code)
+LEFT JOIN fr USING (site_code)
 WHERE s.date_closed IS NULL AND s.latitude IS NOT NULL;
 
--- for data validity per-site, gets exported for Tableau map
+-- for data validity per-site, gets exported for Tableau map as a tooltip
 CREATE OR REPLACE TABLE site_validity AS
 SELECT site_code,
     count(*) FILTER (WHERE flag <> 'ok') AS suspect_readings,

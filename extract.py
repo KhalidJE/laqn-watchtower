@@ -1,13 +1,23 @@
 from api_config import BASE_URL, DB, get_json
-import json, pathlib, time, datetime as dt
+import datetime as dt
+import json
+import pathlib
+import time
 import duckdb
 
-RAW_DATA = pathlib.Path("data/raw");
+RAW_DATA = pathlib.Path("data/raw")
 RAW_DATA.mkdir(parents=True, exist_ok=True)
 
 # per-site watermarks instead of global so each site's window starts from its own last reading
 # finds the latest measurement timestamp in the database for each site to use as a starting point for the next fetch
 def site_watermarks(conn):
+    readings_exists = conn.execute(
+        """SELECT count(*) FROM information_schema.tables
+        WHERE table_schema = 'main' AND table_name = 'readings'"""
+    ).fetchone()[0]
+    if not readings_exists:
+        return {}
+
     rows = conn.execute(
         "SELECT site_code, max(measured_at) FROM readings GROUP BY site_code"
     ).fetchall()
@@ -52,38 +62,6 @@ def save_raw(site_code, payload, start, end):
     path.write_text(json.dumps(payload), encoding="utf-8")
     return path
 
-# extracts measurement rows and inserts valid readings (non-null values)
-# if a matching row already exists but with a null value, the new value replaces it but an existing non-null value gets preserved
-def load(conn, site_code, payload):
-    if not payload:
-        return 0
-    data = payload.get("AirQualityData", {}).get("Data")
-    if not data:
-        return 0
-    rows = []
-    for entry in data:
-        measured_at = entry.get("@MeasurementDateGMT")
-        actual_val = entry.get("@Value")
-        if (actual_val is not None and actual_val != ""):
-            value = float(actual_val)
-        else:
-            value = None
-        if (value is None): # if the value is parsed and turned into a None, don't store it
-            continue
-        species = entry.get("@SpeciesCode")
-        rows.append((site_code, species, measured_at, value))
-
-    if not rows:
-        return 0
-    conn.executemany(
-        """INSERT INTO readings VALUES (?, ?, ?, ?)
-        ON CONFLICT (site_code, species_code, measured_at) DO UPDATE
-        SET value = excluded.value
-        WHERE readings.value IS NULL AND excluded.value IS NOT NULL""", # prevents non-null values from being overwritten - makes the tool more diagnostic
-        rows
-    )
-    return len(rows)
-
 # splits a date range into requests of up to 14 days, making large fetches manageable
 def chunks(start, end, days=14):
     cursor = start
@@ -94,16 +72,7 @@ def chunks(start, end, days=14):
 
 # prepares the database, refreshes site catalogues, calculates each site's fetch window, processes windows
 def run():
-    conn = duckdb.connect(DB) # creates the readings table first time
-    conn.execute("""
-    CREATE TABLE IF NOT EXISTS readings (
-        site_code    VARCHAR,
-        species_code VARCHAR,
-        measured_at  TIMESTAMP,
-        value        DOUBLE,
-        PRIMARY KEY (site_code, species_code, measured_at)
-    )
-""")
+    conn = duckdb.connect(DB)
 
     sites = fetch_sites()
 
@@ -117,7 +86,7 @@ def run():
     today = dt.date.today()
     end = today + dt.timedelta(days=1)
     marks = site_watermarks(conn)
-    before_count = conn.execute("SELECT count(*) FROM readings").fetchone()[0]
+    saved_files = 0
 
     for s in sites:
         s_code = s["@SiteCode"]
@@ -127,13 +96,12 @@ def run():
             try:
                 payload = fetch_window(s_code, chunk_start, chunk_end)
                 save_raw(s_code, payload, chunk_start, chunk_end)
-                load(conn, s_code, payload)
+                saved_files += 1
             except Exception as e:
                 print(f"{s_code} {chunk_start}->{chunk_end} skipped: {type(e).__name__}: {e}") # gives an error if one site is faulty but run doesn't get aborted
             time.sleep(0.3) # delay of 0.3s between calls
 
-    after_count = conn.execute("SELECT count(*) FROM readings").fetchone()[0]
-    print(f"{len(sites)} sites ~ inserted {after_count - before_count} new readings")
+    print(f"{len(sites)} sites ~ saved {saved_files} raw files")
 
 if __name__ == "__main__":
     run()

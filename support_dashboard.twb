@@ -1624,7 +1624,7 @@
                 <run fontcolor='#757575'>Suspicious Readings:</run>
                 <run>Æ </run>
                 <run bold='true'><![CDATA[<[federated.0ers9p71quyp9l1aiz3bt0spdr8y].[sum:suspect_readings:qk]> ]]></run>
-                <run>out of</run>
+                <run fontcolor='#757575'>out of</run>
                 <run bold='true'><![CDATA[ <[federated.0ers9p71quyp9l1aiz3bt0spdr8y].[sum:total_readings:qk]> (<[federated.0ers9p71quyp9l1aiz3bt0spdr8y].[usr:Calculation_3551484418138112:qk]>)]]></run>
                 <run>Æ&#10;</run>
                 <run fontcolor='#757575'>Suspect Flatline Runs:</run>
@@ -2002,8 +2002,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1450' minheight='1450' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='45' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98140' id='44' param='vert' type-v2='layout-flow' w='99064' x='468' y='930'>
+            <zone h='100000' id='47' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98140' id='46' param='vert' type-v2='layout-flow' w='99064' x='468' y='930'>
                 <zone fixed-size='280' h='53256' id='3' is-fixed='true' name='Feed Status' w='43793' x='5981' y='930'>
                   <zone-style>
                     <format attr='border-color' value='#444444' />

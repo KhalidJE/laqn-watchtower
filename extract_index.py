@@ -13,7 +13,7 @@ def fetch_index_advice():
             rows.append(payload)
     return rows
 
-# flattened for transform.sql
+# flattened for transform.sql - note that this is no longer used
 def load_advice(payloads):
     out = []
     seen = set()

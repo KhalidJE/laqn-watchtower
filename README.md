@@ -23,7 +23,7 @@ A 48-hour lookback is also used, counting back from the last watermark. Monitori
 Initial data pulls for a new site backfill for 90 days to provide comparison for sensor and data health information between this season and the previous one (e.g. are the sensors behaving more normally in the autumn compared to the hot days of summer?) and once again allows the support engineer to find patterns in data reliability. The first fetch brought in 599,240 readings (from 29/07/26 to 28/10/26) and 72 responsive sites (sites that have sent data). The 90 days of backfill are chunked to avoid pulling an entire 90 days worth of hourly data for each site; instead, each site provides 14 days of data at a time, with 60 seconds given before timeout and the ability to retry if a fetch initially fails. Due to the nature of the pipeline, any missing data can be added on retries or future attempts without overwriting pre-existing data. Data is saved in .json files that each hold a max of 14 days worth of data.
 
 Data is split across different layers as per the medallion architecture. See the following diagram for more information:
-<img width="1647" height="690" alt="image" src="https://github.com/user-attachments/assets/2758d6cb-da1d-47e7-944c-2f112203e622" />
+<img width="1625" height="678" alt="image" src="https://github.com/user-attachments/assets/734b6859-d94c-41af-9467-b9889d74f92d" />
 
 ### Additional Notes
 Data flags:

@@ -68,7 +68,7 @@ FROM site_species ss
 LEFT JOIN readings r USING (site_code, species_code)
 GROUP BY 1, 2;
 
--- table showing when a flatline occurs - data remaining stale for 8 hours counts as a flatline
+-- table showing when a flatline occurs - data remaining stale across 8+ pulls counts as a flatline
 CREATE OR REPLACE TABLE flatline_runs AS
 WITH ordered AS (
     SELECT site_code, species_code, measured_at, value,

@@ -79,6 +79,8 @@ I would add a 'retrieved_at' field for data being fed into the pipeline to compa
 
 Another piece of future work is to pull data from a 2nd API to validate the accuracy of the data coming from LAQN. Since this is a reliability tool and the firm hypothetically prides itself on providing clean, reliable data to paying customers, it would be a big upgrade to the integrity of their product. LAQN also seems to struggle with providing accurate data in a timely manner so this would be a good way to counteract that and even add placeholder data when none is available from LAQN, thus keeping the firm's clients always provided for.
 
+Lastly, I would create a gold star schema, in which I would formalise the split between dimensions and facts without changing the dashboard exports. Currently, `site_health` and `feed_status` hold site/species metrics and `site_validity` holds site level counts, making them similar to fact tables. `sites` could be a dimension table, and `site_species` maps the species monitored at each site. The current `site_map` combines site descriptions with aggregated metrics for dashboard use but a star schema would separate those roles more explicitly.
+
 ## Where AI Helped
 - Initial resources/links for learning
 - Debugging of extract.py and transformation SQL

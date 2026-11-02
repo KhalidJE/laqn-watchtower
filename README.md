@@ -66,6 +66,7 @@ Another piece of future work is to pull data from a 2nd API to validate the accu
 - Troubleshooting issues with IndexHealthAdvice endpoint
 - Switching to chunking for data backfill
 - SQL queries for troubleshooting
+- Implementing flatline runs into the map filter
 
 ### Attributions
 Air quality information is obtained from the Environmental Research Group of Imperial College London, using data from the London Air Quality Network (https://www.londonair.org.uk), and is licensed under the Open Government Licence Version 2.0.
